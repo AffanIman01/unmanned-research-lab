@@ -23,3 +23,5 @@
 .simulation-mode button.active{color:#1c1d27;background:#d0a8c5}
 .simulation-mode button:focus-visible{outline:2px solid #edbf78;outline-offset:2px}
 @media(max-width:760px){.simulation-heading{align-items:flex-start;flex-direction:column}.simulation-heading-tools{width:100%;justify-content:space-between}.simulation-mode button{padding:7px 8px}}
+
+@media(max-width:900px){.simulation-viewport{height:88svh;min-height:520px}#simulationPanel{padding:10px 5px}.simulation-heading h1{font-size:22px}}
