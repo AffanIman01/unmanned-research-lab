@@ -30,7 +30,7 @@ jobs:
               assert hashlib.sha256(data).hexdigest() == item["sha256"], name
               parts.append(data)
           data = b"".join(parts)
-          expected_archive = "5a8cd6bff6aa6f1db9e1477c6c6f2ffd610520a56277748a7ccc3fef851672d1"
+          expected_archive = "193da235abbc94c487d6666ee4858ff48f12e7baf6d2dc3f445468e9098ec54f"
           assert hashlib.sha256(data).hexdigest() == expected_archive, "Archive checksum mismatch"
           expected = manifest["files"]
           assert len(expected) == 326
