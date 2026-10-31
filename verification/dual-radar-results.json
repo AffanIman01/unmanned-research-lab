@@ -1,7 +1,0 @@
-{
-  "revision": "Single forward radar correction",
-  "checks": 13,
-  "passed": 13,
-  "browserPreview": "Not run: required control-browser capability unavailable",
-  "scope": "Node scene math, mock-DOM interactions and lifecycle; no rendered visual verification"
-}
