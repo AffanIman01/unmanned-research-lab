@@ -1,0 +1,77 @@
+{
+  "checks": [
+    {
+      "name": "USV controls available",
+      "passed": true
+    },
+    {
+      "name": "Two original propellers found",
+      "passed": true
+    },
+    {
+      "name": "Both USV propellers rotate",
+      "passed": true
+    },
+    {
+      "name": "T stops USV propellers",
+      "passed": true
+    },
+    {
+      "name": "All three lift parts move down by existing418mm",
+      "passed": true
+    },
+    {
+      "name": "Fixed lifter frame stays fixed",
+      "passed": true
+    },
+    {
+      "name": "Slider reaches lowered state",
+      "passed": true
+    },
+    {
+      "name": "Up button animates upward",
+      "passed": true
+    },
+    {
+      "name": "Down button animates downward",
+      "passed": true
+    },
+    {
+      "name": "L enables cycling",
+      "passed": true
+    },
+    {
+      "name": "L pauses lift without jump",
+      "passed": true
+    },
+    {
+      "name": "Exploded view pauses USV effects",
+      "passed": true
+    },
+    {
+      "name": "Assembly lift remains aligned to mount",
+      "passed": true
+    },
+    {
+      "name": "Standalone USV controls hidden in assembly",
+      "passed": true
+    },
+    {
+      "name": "T still controls ROV in ROV tab",
+      "passed": true
+    },
+    {
+      "name": "F still controls ROV lamps",
+      "passed": true
+    },
+    {
+      "name": "Mobile no overflow",
+      "passed": true
+    },
+    {
+      "name": "No uncaught errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,45 @@
+{
+  "revision": "AD",
+  "checks": 9,
+  "passed": 9,
+  "scope": "Video library configuration, mock-DOM playback lifecycle, dialog accessibility contracts and static markup.",
+  "browserPreview": "Not run: control-browser unavailable",
+  "results": [
+    {
+      "name": "Browsing tabs never starts playback; a card click opens its titled concept",
+      "passed": true
+    },
+    {
+      "name": "Escape and close button stop playback, clear the source and restore card focus",
+      "passed": true
+    },
+    {
+      "name": "Backdrop closes only when the click is outside the dialog boundary",
+      "passed": true
+    },
+    {
+      "name": "Leaving Videos or hiding the document stops playback without focusing hidden cards",
+      "passed": true
+    },
+    {
+      "name": "Unavailable video gives a poster fallback; retry clears the failure state",
+      "passed": true
+    },
+    {
+      "name": "Browser playback rejection offers manual playback and a late rejection cannot affect a closed dialog",
+      "passed": true
+    },
+    {
+      "name": "Configured YouTube destinations open safely while deceptive hosts and executable URLs are rejected",
+      "passed": true
+    },
+    {
+      "name": "Modified link clicks preserve native browser behavior and disposal removes handlers",
+      "passed": true
+    },
+    {
+      "name": "Published fragment supplies three distinct samples, native controls, honest labels and no autoplay",
+      "passed": true
+    }
+  ]
+}

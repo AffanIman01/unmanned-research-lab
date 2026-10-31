@@ -1,0 +1,114 @@
+{
+  "ports": {
+    "dimensions": [
+      720,
+      450
+    ],
+    "frames": 40,
+    "duration_ms": 4000,
+    "motion_verified": true,
+    "gif_bytes": 1505007,
+    "poster_bytes": 90561,
+    "mp4_bytes": 91985,
+    "mp4_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 450,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "10/1",
+          "nb_frames": "40"
+        }
+      ],
+      "format": {
+        "duration": "4.000000"
+      }
+    }
+  },
+  "reservoir": {
+    "dimensions": [
+      720,
+      450
+    ],
+    "frames": 40,
+    "duration_ms": 4000,
+    "motion_verified": true,
+    "gif_bytes": 1443221,
+    "poster_bytes": 92305,
+    "mp4_bytes": 91636,
+    "mp4_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 450,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "10/1",
+          "nb_frames": "40"
+        }
+      ],
+      "format": {
+        "duration": "4.000000"
+      }
+    }
+  },
+  "aquaculture": {
+    "dimensions": [
+      720,
+      450
+    ],
+    "frames": 40,
+    "duration_ms": 4000,
+    "motion_verified": true,
+    "gif_bytes": 1669583,
+    "poster_bytes": 110132,
+    "mp4_bytes": 100778,
+    "mp4_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 450,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "10/1",
+          "nb_frames": "40"
+        }
+      ],
+      "format": {
+        "duration": "4.000000"
+      }
+    }
+  },
+  "energy": {
+    "dimensions": [
+      720,
+      450
+    ],
+    "frames": 40,
+    "duration_ms": 4000,
+    "motion_verified": true,
+    "gif_bytes": 1389184,
+    "poster_bytes": 88592,
+    "mp4_bytes": 93344,
+    "mp4_probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 450,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "10/1",
+          "nb_frames": "40"
+        }
+      ],
+      "format": {
+        "duration": "4.000000"
+      }
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "coordinateSystem": {
+    "units": "metres",
+    "up": "+Y",
+    "front": "+Z",
+    "origin": "x0/z0 body envelope centre, y0 lowest frame point excluding lights and tether"
+  },
+  "publishedEnvelope": {
+    "x": 0.294,
+    "y": 0.196,
+    "z": 0.608,
+    "excludes": "External floodlights; the modeled short tether also extends beyond the envelope"
+  },
+  "model": {
+    "name": "CHASING M2 PRO MAX",
+    "file": "chasing-m2-pro-max-reference.glb",
+    "triangles": 24480,
+    "bytes": 1531404,
+    "nodes": {
+      "rov_body": 1988,
+      "rov_battery": 1164,
+      "rov_frame": 6144,
+      "rov_camera": 1088,
+      "rov_thrusters": 8688,
+      "rov_lights": 4512,
+      "rov_tether": 896
+    },
+    "bounds": {
+      "rov_body": {
+        "min": [
+          -0.0613311305642128,
+          0.044463325291872025,
+          -0.0260221678763628
+        ],
+        "max": [
+          0.0613311305642128,
+          0.169382244348526,
+          0.2809533476829529
+        ]
+      },
+      "rov_battery": {
+        "min": [
+          -0.07155298441648483,
+          0.04616289958357811,
+          -0.30399999022483826
+        ],
+        "max": [
+          0.07155298441648483,
+          0.14983710646629333,
+          -0.025022245943546295
+        ]
+      },
+      "rov_frame": {
+        "min": [
+          -0.1469999998807907,
+          0.0,
+          -0.3020486533641815
+        ],
+        "max": [
+          0.1469999998807907,
+          0.19599999487400055,
+          0.30399999022483826
+        ]
+      },
+      "rov_camera": {
+        "min": [
+          -0.03407284989953041,
+          0.0682573989033699,
+          0.2709541618824005
+        ],
+        "max": [
+          0.03407284989953041,
+          0.12774260342121124,
+          0.3029515743255615
+        ]
+      },
+      "rov_thrusters": {
+        "min": [
+          -0.14277011156082153,
+          0.003961211536079645,
+          -0.29705438017845154
+        ],
+        "max": [
+          0.14277011156082153,
+          0.19203880429267883,
+          0.29900574684143066
+        ]
+      },
+      "rov_lights": {
+        "min": [
+          -0.21837173402309418,
+          0.12263964116573334,
+          0.02347368560731411
+        ],
+        "max": [
+          0.21837173402309418,
+          0.2430078387260437,
+          0.18784888088703156
+        ]
+      },
+      "rov_tether": {
+        "min": [
+          -0.013000000268220901,
+          0.08584979176521301,
+          -0.3567831218242645
+        ],
+        "max": [
+          0.07016658782958984,
+          0.18176253139972687,
+          -0.28400158882141113
+        ]
+      }
+    }
+  },
+  "configuration": "Standard ROV with two external floodlights in the manual common deployed working position. No optional cage, manipulator or sonar.",
+  "facts": {
+    "thrusterCount": 8,
+    "thrusterDescription": "Eight vectored C-MOTOR 2.0 thrusters; shown as fore/aft upper/lower corner pairs. Angles approximated from imagery.",
+    "battery": "Rear removable battery compartment; website nominal 300Wh, manual 302.4Wh.",
+    "lights": "Two external folding LED floodlights, 2 x 4000 lumens total 8000 lumens.",
+    "camera": "Forward integrated camera; 4K and 12MP claimed in official overview.",
+    "maxDepthMetres": 200,
+    "nominalMassKg": 8,
+    "accessoryPortCount": 5
+  },
+  "references": [
+    {
+      "url": "https://www.chasing.com/en/chasing-m2pro-max-specs.html",
+      "supports": "Dimensions excluding floodlights, 300Wh battery, depth and lights."
+    },
+    {
+      "url": "https://www.chasing.com/en/chasing-m2pro-max-overview.html",
+      "supports": "Camera, external folding lights and motor family."
+    },
+    {
+      "url": "https://na-file.chasing.com/ltWgw4lZoQ7OvgSnLHiGc5Yeku2-",
+      "supports": "Manufacturer User Manual V1.0: PDF page3 component layout and eight thrusters; page6 removable battery; page7 deployed/folded lamps; page8 dimensions."
+    },
+    {
+      "url": "https://na-file.chasing.com/1789714450610/img/max_fenzu7_img_1_pc.052c111.webp",
+      "supports": "Official motor, silver frame and orange screw visual detail."
+    },
+    {
+      "url": "https://na-file.chasing.com/1789714450610/img/max_fenzu4_img_1_pc.0a935bd.webp",
+      "supports": "Official mounting rail and sideframe visual detail."
+    },
+    {
+      "url": "https://na-file.chasing.com/1789714450610/img/max_fenzu5_img_1_pc.bfbc10c.webp",
+      "supports": "Official ROV whole assembly and rear interface visual reference; optional shore power/reel omitted."
+    }
+  ],
+  "limitations": [
+    "Reference-based procedural visualization, not manufacturer CAD.",
+    "Published no-light overall envelope is the only dimensional anchor. Individual parts, motor axes, lamp spacing, battery split and fasteners are visually approximated.",
+    "Lamp brightness is metadata only, not a calibrated lighting simulation.",
+    "Removable battery is represented as a selectable group, without verified internal geometry or service clearances."
+  ],
+  "nodePositions": {
+    "rov_body": [
+      0.0,
+      0.10692278295755386,
+      0.12746559083461761
+    ],
+    "rov_battery": [
+      0.0,
+      0.09800000488758087,
+      -0.16451111435890198
+    ],
+    "rov_frame": [
+      0.0,
+      0.09799999743700027,
+      0.0009756684303283691
+    ],
+    "rov_camera": [
+      0.0,
+      0.09800000488758087,
+      0.2869528532028198
+    ],
+    "rov_thrusters": [
+      0.0,
+      0.09800000488758087,
+      0.000975683331489563
+    ],
+    "rov_lights": [
+      0.0,
+      0.18282374739646912,
+      0.10566128045320511
+    ],
+    "rov_tether": [
+      0.02858329378068447,
+      0.13380616903305054,
+      -0.320392370223999
+    ]
+  }
+}

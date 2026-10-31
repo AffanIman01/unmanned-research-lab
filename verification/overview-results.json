@@ -1,0 +1,73 @@
+{
+  "revision": "AA",
+  "checks": 16,
+  "passed": 16,
+  "scope": "Mock-DOM user actions, async navigation races, safe text rendering, and isolated execution of actual Studio lifecycle/render gates.",
+  "browserPreview": "Not run: control-browser unavailable",
+  "results": [
+    {
+      "name": "Opening the page selects Overview without importing or activating 3D",
+      "passed": true
+    },
+    {
+      "name": "First Studio click loads once, pauses video, and selects its accessible tab",
+      "passed": true
+    },
+    {
+      "name": "Returning to Overview deactivates Studio; reopening reuses its module",
+      "passed": true
+    },
+    {
+      "name": "Returning to Overview during pending import never leaves Studio active",
+      "passed": true
+    },
+    {
+      "name": "Concurrent Studio requests share import and only the latest target opens",
+      "passed": true
+    },
+    {
+      "name": "Import failure shows a retry message and a second selection retries successfully",
+      "passed": true
+    },
+    {
+      "name": "Hardware shortcut requests the ME120 stereo lesson and moves to the tabs",
+      "passed": true
+    },
+    {
+      "name": "Arrow, Home, and End keys change tabs with focus and roving tab index",
+      "passed": true
+    },
+    {
+      "name": "Hidden documents pause Overview video without autoplaying on return",
+      "passed": true
+    },
+    {
+      "name": "Unknown navigation destinations do not mutate the selected page or load 3D",
+      "passed": true
+    },
+    {
+      "name": "Capability panels support mouse hover, keyboard focus, and touch click with one expanded panel",
+      "passed": true
+    },
+    {
+      "name": "Photo viewer displays caption as text and returns focus to the originating thumbnail",
+      "passed": true
+    },
+    {
+      "name": "Photo viewer is optional when its dialog is absent",
+      "passed": true
+    },
+    {
+      "name": "Studio deactivation neutralizes held controls and all animated actuators",
+      "passed": true
+    },
+    {
+      "name": "An old target waiting for models cannot change a newly reopened Studio",
+      "passed": true
+    },
+    {
+      "name": "Scene frames skip effects, camera, inspection, and WebGL work while inactive or hidden",
+      "passed": true
+    }
+  ]
+}

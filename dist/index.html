@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#1b1424"><title>Unmanned Research Lab · Integrated USV–ROV Research</title><meta name="description" content="USM research into ME120 and CHASING ROV deployment, recovery and teleoperation. Interactive models with photo-matched ZED, RoboSense LiDAR and ground antennas; Jetson Orin NX integration is planned."><link rel="stylesheet" href="./style.css?v=gnss-ar"><link rel="stylesheet" href="./hardware-lesson.css?v=hardware-z"><link rel="stylesheet" href="./link-flow.css?v=hardware-z"><link rel="stylesheet" href="./overview.css?v=readiness-aj"><link rel="stylesheet" href="./videos.css?v=overview-ad"><link rel="stylesheet" href="./simulation.css?v=rov-pilot-a"><link rel="stylesheet" href="./research-background.css?v=studio-aq"><script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script><link rel="stylesheet" href="./m2-training.css?v=training-as"><link rel="stylesheet" href="./documentation.css?v=tools-az"><link rel="stylesheet" href="./accessory-showroom.css?v=tools-az"></head>
+<body class="overview-open">
+<header class="topbar"><div class="institution" aria-label="Universiti Sains Malaysia · School of Electrical and Electronic Engineering"><img class="see-logo" src="./branding/see-usm-hd.png" width="1642" height="958" alt="School of Electrical and Electronic Engineering USM"><span class="institution-divider" aria-hidden="true"></span><img class="usm-logo" src="./branding/usm-apex-hd.png" width="1863" height="450" alt="Universiti Sains Malaysia APEX"></div></header>
+<nav id="projectTabs" class="project-tabs" role="tablist" aria-label="Research project views">
+<button id="overviewTab" role="tab" aria-selected="true" aria-controls="overviewPanel" data-page-tab="overview">Overview</button>
+<button id="videosTab" role="tab" aria-selected="false" aria-controls="videosPanel" data-page-tab="videos" tabindex="-1">Videos</button>
+<button id="studioTab" role="tab" aria-selected="false" aria-controls="studioPanel" data-page-tab="studio" tabindex="-1">3D Studio <span aria-hidden="true">↗</span></button>
+<button id="simulationTab" role="tab" aria-selected="false" aria-controls="simulationPanel" data-page-tab="simulation" tabindex="-1">Simulation</button>
+<button id="documentationTab" role="tab" aria-selected="false" aria-controls="documentationPanel" data-page-tab="documentation" tabindex="-1">Documentation</button>
+<span class="project-tabs-note">USV + ROV · Research in progress</span>
+</nav>
+<section id="overviewPanel" role="tabpanel" aria-labelledby="overviewTab">
+<div id="overviewProjectHeading"><section class="project-heading" aria-labelledby="overviewResearchProjectTitle">
+<p class="project-eyebrow">Research Project</p>
+<h1 id="overviewResearchProjectTitle">Integrated USV–ROV Deployment and Teleoperation</h1>
+<ul class="project-team" aria-label="Research project team"><li>Assoc Prof Dr Wan Yusof Rahiman</li><li>Wan Abdul Syaqur Norzam</li><li>Affan Iman Azman</li><li>Ishtiak Ahmed</li></ul>
+<nav class="technology-strip" aria-label="Project platforms and planned technology">
+<div class="technology-group"><span class="technology-label">Platforms &amp; technology</span><div class="technology-logos">
+<a href="https://www.oceanalpha.com/inland-water-survey/me120-usv/" target="_blank" rel="noopener noreferrer" aria-label="OceanAlpha — ME120"><img class="tech-oceanalpha" src="./branding/oceanalpha-logo.png" alt="OceanAlpha" width="350" height="100"></a>
+<a href="https://www.chasing.com/en/chasing-m2pro-max-overview.html" target="_blank" rel="noopener noreferrer" aria-label="CHASING — M2 PRO MAX"><img class="tech-chasing" src="./branding/chasing-logo.png" alt="CHASING" width="432" height="60"></a>
+<a href="https://www.starlink.com/roam" target="_blank" rel="noopener noreferrer" aria-label="Starlink — internet backhaul"><img class="tech-starlink" src="./branding/starlink-logo-white.png" alt="Starlink" width="612" height="101"></a>
+<a href="https://www.hikvision.com/en/products/IP-Products/PTZ-Cameras/" target="_blank" rel="noopener noreferrer" aria-label="Hikvision — PTZ camera"><img class="tech-hikvision" src="./branding/hikvision-logo-white.png" alt="Hikvision" width="1953" height="254"></a>
+</div></div>
+<div class="technology-group planned"><span class="technology-label"><i aria-hidden="true"></i>Perception &amp; compute</span><div class="technology-logos">
+<a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/" target="_blank" rel="noopener noreferrer" aria-label="NVIDIA Jetson Orin NX — planned integration"><img class="tech-nvidia" src="./branding/nvidia-logo.svg" alt="NVIDIA"><small>Orin NX · Planned</small></a>
+<a href="https://www.stereolabs.com/" target="_blank" rel="noopener noreferrer" aria-label="Stereolabs ZED stereo camera — photographed installation"><img class="tech-stereolabs" src="./branding/stereolabs-logo.svg" alt="Stereolabs"><small>ZED stereo camera</small></a>
+<a href="https://www.robosense.ai/en" target="_blank" rel="noopener noreferrer" aria-label="RoboSense 3D LiDAR — photographed installation"><img class="tech-robosense" src="./branding/robosense-logo-header.png" alt="RoboSense"><small>3D LiDAR</small></a>
+</div></div>
+</nav>
+</section></div>
+<div class="ov-shell">
+  <section class="ov-hero" aria-labelledby="overviewTitle">
+    <div class="ov-hero-copy">
+      <p class="ov-eyebrow">Integrated surface &amp; underwater robotics</p>
+      <h2 id="overviewTitle">Project overview</h2>
+      <p class="ov-intro">Developing an ME120–M2 PRO MAX system for remote inspection, coordinated control and ROV deployment and recovery.</p>
+      <button class="ov-primary" data-open-studio="me120">Explore 3D studio <span aria-hidden="true">↗</span></button>
+      <p class="ov-progress"><span aria-hidden="true"></span>Research in progress</p>
+    </div>
+    <figure class="ov-concept">
+      <div class="ov-concept-viewport"><img id="overviewConceptImage" src="./overview-concept/poster.png" data-animation="./overview-concept/concept.gif" data-poster="./overview-concept/poster.png" width="1000" height="560" alt="Illustrative USV–ROV concept: a surface vessel links a remote operator to a tethered underwater robot and its recovery mechanism."><button id="toggleConceptAnimation" class="ov-animation-toggle" aria-pressed="false" aria-controls="overviewConceptImage">Play animation</button></div>
+      <figcaption>Concept animation · illustrative</figcaption>
+    </figure>
+  </section>
+
+<section class="ov-proposal" aria-label="Problem and proposed solution">
+    <article class="ov-problem"><span class="ov-section-index" aria-hidden="true">01</span><h2>Problem</h2><p>Tether handling, moving water and separate control interfaces complicate remote ROV deployment and recovery.</p></article>
+    <article class="ov-solution"><span class="ov-section-index" aria-hidden="true">02</span><h2>Our solution</h2><p>A USV gateway, shared controls and magnet-assisted mechanical capture. Simulation first; staged water trials planned.</p></article>
+  </section>
+
+  <section class="ov-focus" aria-labelledby="researchFocusTitle">
+    <div class="ov-section-heading"><h2 id="researchFocusTitle">Research focus</h2><span>Hover or tap · 2D concepts</span></div>
+    <div class="ov-capabilities">
+      <article class="ov-capability is-active" data-capability="teleoperation">
+        <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./focus-motion/teleoperation-poster.png" data-animation="./focus-motion/teleoperation.gif" data-poster="./focus-motion/teleoperation-poster.png" width="600" height="360" alt="" loading="lazy"></div><button class="ov-preview-toggle" aria-label="Play teleoperation animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+        <span class="ov-capability-number" aria-hidden="true">01</span>
+        <div class="ov-capability-copy"><h3>Teleoperation</h3><p id="capabilityTeleoperation">GUI prototype · simulation first</p></div>
+        <button class="ov-capability-toggle" aria-expanded="true" aria-controls="capabilityTeleoperation" aria-label="Show teleoperation research"></button>
+        <button class="ov-capability-action" data-open-studio="hardware" data-lesson="links" aria-label="See the proposed teleoperation control link">Control link <span aria-hidden="true">↗</span></button>
+      </article>
+      <article class="ov-capability" data-capability="perception">
+        <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./focus-motion/perception-poster.png" data-animation="./focus-motion/perception.gif" data-poster="./focus-motion/perception-poster.png" width="600" height="360" alt="" loading="lazy"></div><button class="ov-preview-toggle" aria-label="Play perception animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+        <span class="ov-capability-number" aria-hidden="true">02</span>
+        <div class="ov-capability-copy"><h3>Perception</h3><p id="capabilityPerception">ZED + LiDAR · integration in progress</p></div>
+        <button class="ov-capability-toggle" aria-expanded="false" aria-controls="capabilityPerception" aria-label="Show perception research"></button>
+        <button class="ov-capability-action" data-open-studio="hardware" aria-label="See how the ZED camera and LiDAR work">See sensing <span aria-hidden="true">↗</span></button>
+      </article>
+      <article class="ov-capability" data-capability="recovery">
+        <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./focus-motion/recovery-poster.png" data-animation="./focus-motion/recovery.gif" data-poster="./focus-motion/recovery-poster.png" width="600" height="360" alt="" loading="lazy"></div><button class="ov-preview-toggle" aria-label="Play recovery animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+        <span class="ov-capability-number" aria-hidden="true">03</span>
+        <div class="ov-capability-copy"><h3>Recovery</h3><p id="capabilityRecovery">Magnetic capture · mechanical locking concept</p></div>
+        <button class="ov-capability-toggle" aria-expanded="false" aria-controls="capabilityRecovery" aria-label="Show recovery research"></button>
+        <button class="ov-capability-action" data-open-studio="system" aria-label="Explore the magnetic recovery concept">View concept <span aria-hidden="true">↗</span></button>
+      </article>
+      <article class="ov-capability" data-capability="validation">
+        <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./focus-motion/validation-poster.png" data-animation="./focus-motion/validation.gif" data-poster="./focus-motion/validation-poster.png" width="600" height="360" alt="" loading="lazy"></div><button class="ov-preview-toggle" aria-label="Play validation animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+        <span class="ov-capability-number" aria-hidden="true">04</span>
+        <div class="ov-capability-copy"><h3>Validation</h3><p id="capabilityValidation">Simulation + planned water trials</p></div>
+        <button class="ov-capability-toggle" aria-expanded="false" aria-controls="capabilityValidation" aria-label="Show validation research"></button>
+        <button class="ov-capability-action" data-open-simulation aria-label="Open the water-operation simulation">Simulate <span aria-hidden="true">↗</span></button>
+      </article>
+    </div>
+  </section>
+
+  <section id="researchReadiness" class="ov-readiness" aria-labelledby="readinessTitle">
+    <div class="ov-section-heading"><h2 id="readinessTitle">Technology Readiness Level <span class="ov-heading-acronym">(TRL)</span></h2><span class="ov-trl-badge">Current · TRL 2 <small>Provisional</small></span></div>
+    <div class="ov-trl-scale" role="group" aria-label="Explore technology readiness levels">
+      <button class="ov-trl-level" data-trl="1" aria-pressed="false" aria-label="TRL 1: basic principles"><strong>1</strong><span>Principles</span></button>
+      <button class="ov-trl-level is-current" data-trl="2" data-current="true" aria-pressed="true" aria-label="TRL 2: concept defined; current provisional project level"><strong>2</strong><span>Concept</span></button>
+      <button class="ov-trl-level is-next" data-trl="3" aria-pressed="false" aria-label="TRL 3: experimental proof of concept"><strong>3</strong><span>Proof</span></button>
+      <button class="ov-trl-level" data-trl="4" aria-pressed="false" aria-label="TRL 4: validated in the laboratory"><strong>4</strong><span>Lab</span></button>
+      <button class="ov-trl-level" data-trl="5" aria-pressed="false" aria-label="TRL 5: validated in a relevant environment"><strong>5</strong><span>Relevant</span></button>
+      <button class="ov-trl-level" data-trl="6" aria-pressed="false" aria-label="TRL 6: demonstrated in a relevant environment"><strong>6</strong><span>Prototype</span></button>
+      <button class="ov-trl-level" data-trl="7" aria-pressed="false" aria-label="TRL 7: prototype demonstration in an operational environment"><strong>7</strong><span>Demo</span></button>
+      <button class="ov-trl-level" data-trl="8" aria-pressed="false" aria-label="TRL 8: system complete and qualified"><strong>8</strong><span>Qualified</span></button>
+      <button class="ov-trl-level" data-trl="9" aria-pressed="false" aria-label="TRL 9: system proven in operational use"><strong>9</strong><span>Operational</span></button>
+    </div>
+    <div class="ov-trl-spectrum" aria-hidden="true"><div class="ov-trl-spectrum-line"><i></i></div><span class="ov-trl-current-marker"></span></div>
+    <div class="ov-trl-spectrum-legend"><span>Research</span><span>Development</span><span>Deployment</span><button id="replayTrlSpectrum" type="button" aria-label="Replay readiness pathway animation" title="Replay pathway"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+    <div class="ov-trl-detail" aria-live="polite"><div><h3 id="trlDetailTitle">Technology concept defined</h3><p id="trlDetailText">Integrated hardware proof remains planned.</p></div><span id="trlDetailStatus">Current · provisional</span></div>
+    <p class="ov-trl-note">Project self-assessment · integrated system</p>
+    <div class="ov-readiness-details">
+      <details class="ov-benchmarks"><summary>Validation benchmarks</summary><table><caption>Baseline measurements are not yet established.</caption><thead><tr><th scope="col">Measure</th><th scope="col">Evidence</th></tr></thead><tbody><tr><th scope="row">Recovery success</th><td>Measurement planned</td></tr><tr><th scope="row">Control latency</th><td>Measurement planned</td></tr><tr><th scope="row">Locked hold power</th><td>Measurement planned</td></tr><tr><th scope="row">Mission completion</th><td>Measurement planned</td></tr></tbody></table></details>
+      <details class="ov-trl-basis"><summary>Assessment basis</summary><p>This provisional rating concerns the integrated research system, not the commercial vehicles. It requires review against documented experimental evidence.</p><p><a href="https://eic.ec.europa.eu/programme-finder-13_en" target="_blank" rel="noopener noreferrer">European Innovation Council · TRL framework ↗</a></p></details>
+    </div>
+  </section>
+
+  <section class="ov-next-stage" aria-labelledby="nextStageTitle">
+    <div class="ov-section-heading"><h2 id="nextStageTitle">Next validation stage</h2><span>Planned milestones</span></div>
+    <ol class="ov-milestones"><li><span>TRL 3</span><strong>Capture &amp; control proof</strong></li><li><span>TRL 4</span><strong>Integrated lab validation</strong></li><li><span>TRL 5</span><strong>Current &amp; link disturbances</strong></li><li><span>TRL 6</span><strong>Prototype water demonstration</strong></li></ol>
+    <div class="ov-funding"><p>Control integration · recovery prototype · instrumented water trials</p><a href="#researchReadiness">Seeking research and validation partners <span aria-hidden="true">↗</span></a></div>
+  </section>
+
+  <section class="ov-team-section" aria-labelledby="researchTeamTitle">
+    <div class="ov-section-heading"><h2 id="researchTeamTitle">Meet our Research Team</h2><span>Universiti Sains Malaysia</span></div>
+    <div class="ov-team-grid">
+      <article class="ov-person"><figure class="ov-portrait"><img src="./team/wan-yusof-rahiman.webp" alt="Assoc Prof Dr Wan Yusof Rahiman — Research team lead" width="1254" height="1254" loading="lazy"></figure><div><h3>Assoc Prof Dr Wan Yusof Rahiman</h3><p>Research team lead</p></div></article>
+      <article class="ov-person"><figure class="ov-portrait"><img src="./team/syaqur-sample.jpg" alt="Fictional sample portrait; Wan Abdul Syaqur Norzam photo pending" width="256" height="320" loading="lazy"><figcaption>Sample portrait</figcaption></figure><div><h3>Wan Abdul Syaqur Norzam</h3><p>Research team</p></div></article>
+      <article class="ov-person"><figure class="ov-portrait"><img src="./team/affan.png" alt="Affan Iman Azman" width="256" height="320" loading="lazy"></figure><div><h3>Affan Iman Azman</h3><p>Software integration &amp; control systems</p></div></article>
+      <article class="ov-person"><figure class="ov-portrait"><img src="./team/ishtiak-ahmed.png" alt="Ishtiak Ahmed — Mechanical design" width="400" height="400" loading="lazy"></figure><div><h3>Ishtiak Ahmed</h3><p>Mechanical design</p></div></article>
+    </div>
+  </section>
+
+  <section class="ov-applications" aria-labelledby="applicationsTitle">
+    <div class="ov-section-heading"><h2 id="applicationsTitle">Research potential</h2><span>Future applications</span></div>
+    <p class="ov-applications-intro">From a shared research platform to sector-specific inspection tools.</p>
+    <div class="ov-capabilities ov-potential-grid">
+<article class="ov-capability is-active" data-capability="application-ports">
+      <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./application-motion/ports-poster.png" data-animation="./application-motion/ports.gif" data-poster="./application-motion/ports-poster.png" width="640" height="400" alt="" loading="lazy"></div>
+      <span class="ov-potential-label">3D concept</span><button class="ov-preview-toggle" aria-label="Play Ports and infrastructure animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+      <div class="ov-capability-copy"><h3>Ports &amp; infrastructure</h3><p id="application-ports-description">Document quay walls, piles and submerged structures for maintenance planning.</p></div>
+      <button class="ov-capability-toggle" aria-expanded="true" aria-controls="application-ports-description" aria-label="Explore Ports and infrastructure"></button>
+      <span class="ov-potential-stage">Early pilot candidate</span>
+    </article>
+<article class="ov-capability" data-capability="application-reservoir">
+      <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./application-motion/reservoir-poster.png" data-animation="./application-motion/reservoir.gif" data-poster="./application-motion/reservoir-poster.png" width="640" height="400" alt="" loading="lazy"></div>
+      <span class="ov-potential-label">3D concept</span><button class="ov-preview-toggle" aria-label="Play Reservoirs and water assets animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+      <div class="ov-capability-copy"><h3>Reservoirs &amp; water assets</h3><p id="application-reservoir-description">Link surface surveys with underwater observations and repeatable inspection records.</p></div>
+      <button class="ov-capability-toggle" aria-expanded="false" aria-controls="application-reservoir-description" aria-label="Explore Reservoirs and water assets"></button>
+      <span class="ov-potential-stage">Early pilot candidate</span>
+    </article>
+<article class="ov-capability" data-capability="application-aquaculture">
+      <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./application-motion/aquaculture-poster.png" data-animation="./application-motion/aquaculture.gif" data-poster="./application-motion/aquaculture-poster.png" width="640" height="400" alt="" loading="lazy"></div>
+      <span class="ov-potential-label">3D concept</span><button class="ov-preview-toggle" aria-label="Play Aquaculture animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+      <div class="ov-capability-copy"><h3>Aquaculture</h3><p id="application-aquaculture-description">Explore net and mooring inspections to support farm maintenance decisions.</p></div>
+      <button class="ov-capability-toggle" aria-expanded="false" aria-controls="application-aquaculture-description" aria-label="Explore Aquaculture"></button>
+      <span class="ov-potential-stage">Sector adaptation</span>
+    </article>
+<article class="ov-capability" data-capability="application-energy">
+      <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./application-motion/energy-poster.png" data-animation="./application-motion/energy.gif" data-poster="./application-motion/energy-poster.png" width="640" height="400" alt="" loading="lazy"></div>
+      <span class="ov-potential-label">3D concept</span><button class="ov-preview-toggle" aria-label="Play Nearshore energy animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+      <div class="ov-capability-copy"><h3>Nearshore energy</h3><p id="application-energy-description">Adapt validated methods for foundations, moorings and accessible underwater assets.</p></div>
+      <button class="ov-capability-toggle" aria-expanded="false" aria-controls="application-energy-description" aria-label="Explore Nearshore energy"></button>
+      <span class="ov-potential-stage">Longer-term extension</span>
+    </article>
+    </div>
+    <div class="ov-partner-note"><strong>Open to research &amp; validation partners</strong><span>Pilot sites · technical collaboration · validation funding</span></div>
+    <details class="ov-sector-basis"><summary>Application basis</summary><p>Proposed directions, subject to sector requirements and field validation. These are not demonstrated services or confirmed partnerships.</p><div><a href="https://www.oceanalpha.com/inland-water-survey/me120-usv/" target="_blank" rel="noopener noreferrer">OceanAlpha · inland &amp; nearshore use ↗</a><a href="https://forum.chasing.com/d/63-chasing-underwater-drone-chasing-m2-pro-max-promotional-video" target="_blank" rel="noopener noreferrer">CHASING · industrial inspection ↗</a><a href="https://www.sintef.no/en/projects/2024/aquastar-autonomous-underwater-system-for-targeted-assessment-and-repair/" target="_blank" rel="noopener noreferrer">SINTEF · aquaculture research ↗</a></div></details>
+  </section>
+</div>
+
+
+</section>
+<section id="videosPanel" role="tabpanel" aria-labelledby="videosTab" hidden>
+<div class="vid-shell">
+  <header class="vid-heading">
+    <p>Research in motion</p>
+    <h1>Videos</h1>
+    <span>Concept previews of future applications.</span>
+  </header>
+  <div class="vid-grid">
+    <article class="vid-card">
+      <a class="vid-link" href="./application-motion/ports.mp4" data-video-id="ports" aria-label="Play Ports &amp; infrastructure — 3D concept sample">
+        <div class="vid-thumbnail"><img src="./application-motion/ports-poster.png" alt="3D concept of an ROV inspecting a port structure below a surface vessel" width="720" height="450" loading="lazy"><span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span></div>
+        <p class="vid-meta">3D concept sample <span>Video</span></p>
+        <h2>Ports &amp; infrastructure <span aria-hidden="true">↗</span></h2>
+      </a>
+      <p class="vid-description">Surface and underwater inspection.</p>
+      <div class="vid-tags"><span>Infrastructure</span><span>USV + ROV</span></div>
+    </article>
+    <article class="vid-card">
+      <a class="vid-link" href="./application-motion/reservoir.mp4" data-video-id="reservoir" aria-label="Play Reservoir inspection — 3D concept sample">
+        <div class="vid-thumbnail"><img src="./application-motion/reservoir-poster.png" alt="3D concept of an ROV inspecting a submerged reservoir intake" width="720" height="450" loading="lazy"><span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span></div>
+        <p class="vid-meta">3D concept sample <span>Video</span></p>
+        <h2>Reservoir inspection <span aria-hidden="true">↗</span></h2>
+      </a>
+      <p class="vid-description">A closer view of submerged intakes.</p>
+      <div class="vid-tags"><span>Water systems</span><span>Inspection</span></div>
+    </article>
+    <article class="vid-card">
+      <a class="vid-link" href="./application-motion/aquaculture.mp4" data-video-id="aquaculture" aria-label="Play Aquaculture inspection — 3D concept sample">
+        <div class="vid-thumbnail"><img src="./application-motion/aquaculture-poster.png" alt="3D concept of an ROV checking an aquaculture cage and mooring" width="720" height="450" loading="lazy"><span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span></div>
+        <p class="vid-meta">3D concept sample <span>Video</span></p>
+        <h2>Aquaculture inspection <span aria-hidden="true">↗</span></h2>
+      </a>
+      <p class="vid-description">Visual checks of cages and moorings.</p>
+      <div class="vid-tags"><span>Aquaculture</span><span>Monitoring</span></div>
+    </article>
+  </div>
+  <p class="vid-disclaimer">Illustrative animations · field footage to follow.</p>
+</div>
+<dialog id="sampleVideoDialog" class="vid-dialog" aria-labelledby="sampleVideoTitle" aria-describedby="sampleVideoLabel">
+  <div class="vid-dialog-heading"><div><p id="sampleVideoLabel">3D concept sample</p><h2 id="sampleVideoTitle">Application preview</h2></div><button id="closeSampleVideo" type="button" aria-label="Close video" autofocus>×</button></div>
+  <video id="sampleVideoPlayer" controls playsinline preload="none" aria-label="Concept animation"></video>
+  <div id="sampleVideoError" class="vid-error" hidden><img id="sampleVideoFallbackPoster" alt="Concept preview"><p>Video unavailable. Please try again later.</p></div>
+  <p id="sampleVideoHint" class="vid-playback-hint" role="status" hidden></p>
+</dialog>
+
+</section>
+<section id="simulationPanel" role="tabpanel" aria-labelledby="simulationTab" hidden>
+<header class="simulation-heading"><div><h1>Water operation</h1><p id="simulationSubheading">ME120 × M2 PRO MAX · Reopening starts a new trial</p></div><div class="simulation-heading-tools"><div class="simulation-mode" role="group" aria-label="Simulation view"><button type="button" data-simulation-mode="water" class="active" aria-pressed="true">Water operation</button><button type="button" data-simulation-mode="rov" aria-pressed="false">ROV pilot</button></div><span class="simulation-badge">Browser simulation</span><button id="simulationReload" type="button" aria-label="Reload and reset the water simulation">↻ Reload</button></div></header>
+<div class="simulation-viewport"><div id="simulationFrameHost" aria-busy="false"></div><div id="simulationLoadState" class="simulation-state" role="status" aria-live="polite"><p id="simulationLoadMessage">Opening water simulation…</p><a id="simulationFallback" class="simulation-fallback" href="./water-simulation/index.html?v=tools-az" target="_blank" rel="noopener noreferrer" hidden>Open simulation in a new tab ↗</a></div></div>
+</section>
+<section id="documentationPanel" role="tabpanel" aria-labelledby="documentationTab" hidden>
+ <div class="docs-shell">
+  <header class="docs-heading"><div><p class="docs-eyebrow">UNMANNED RESEARCH LAB</p><h1>Documentation</h1><p>Operate. Explore. Validate.</p></div><span class="docs-version">Research workspace · 30 Oct 2026</span></header>
+  <div class="docs-start" aria-label="Quick start">
+   <article><span class="docs-number">01</span><h2>ROV pilot</h2><p>Arm with <kbd>Space</kbd>, then pilot with <kbd>WASD</kbd>.</p><button type="button" data-open-simulation="rov">Open ROV pilot <span aria-hidden="true">↗</span></button></article>
+   <article><span class="docs-number">02</span><h2>Water operation</h2><p>Pilot the USV, deploy the ROV, then recover.</p><button type="button" data-open-simulation="water">Open simulation <span aria-hidden="true">↗</span></button></article>
+   <article><span class="docs-number">03</span><h2>Hardware &amp; recovery</h2><p>Inspect components and the magnetic capture concept.</p><button type="button" data-open-studio="me120">Open 3D Studio <span aria-hidden="true">↗</span></button></article>
+  </div>
+  <div class="docs-columns">
+   <section class="docs-guides" aria-labelledby="docsGuidesTitle"><div class="docs-section-title"><span>FIELD GUIDE</span><h2 id="docsGuidesTitle">Using the studio</h2></div>
+    <details><summary>Keyboard controls <span>01</span></summary><div class="docs-detail"><table><caption>ROV pilot · custom simulator mapping</caption><thead><tr><th>Keys</th><th>Action</th></tr></thead><tbody><tr><td><kbd>Space</kbd></td><td>Arm / disarm</td></tr><tr><td><kbd>W</kbd> <kbd>S</kbd> / <kbd>A</kbd> <kbd>D</kbd></td><td>Forward / back · strafe left / right</td></tr><tr><td><kbd>Z</kbd> <kbd>X</kbd></td><td>Yaw left / right</td></tr><tr><td><kbd>Q</kbd> <kbd>E</kbd></td><td>Roll left / right</td></tr><tr><td><kbd>R</kbd> <kbd>C</kbd></td><td>Ascend / descend</td></tr><tr><td><kbd>T</kbd> <kbd>V</kbd></td><td>Pitch up / down</td></tr><tr><td><kbd>0</kbd></td><td>Level pitch and roll</td></tr><tr><td><kbd>F</kbd></td><td>Lights · 0 / 50 / 100%</td></tr><tr><td><kbd>[</kbd> <kbd>]</kbd></td><td>Drive limit · 25 / 50 / 75 / 100%</td></tr><tr><td><kbd>L</kbd> · hold 1.5 s</td><td>Deploy / retrieve · Water Operation</td></tr><tr><td><kbd>K</kbd></td><td>Accessories</td></tr><tr><td><kbd>J</kbd></td><td>Capture bridge observation</td></tr><tr><td><kbd>Esc</kbd></td><td>Stop / disarm</td></tr></tbody></table><p>USV: W/S drives; A/D steers. Space controls the current pilot vehicle. Changing camera vehicle does not change control ownership.</p></div></details>
+    <details><summary>Camera views &amp; HUD <span>02</span></summary><div class="docs-detail docs-camera-list"><p><kbd>1</kbd><b>First person</b>Onboard viewpoint</p><p><kbd>2</kbd><b>Close follow</b>Speedometer + vehicle telemetry</p><p><kbd>3</kbd><b>Third person</b>Wide follow view</p><p><kbd>4</kbd><b>Free view</b>Independent inspection camera</p><div class="docs-tip">Drag to orbit · right-drag to pan · scroll to zoom. Recenter returns to the selected vehicle. On touch: one finger orbits; two fingers pan and pinch.</div><p class="docs-small">HUD speed: m/s and knots. Depth, attitude and position are simulated.</p></div></details>
+    <details><summary>Accessories &amp; recovery <span>03</span></summary><div class="docs-detail"><ul><li><b>Grabber Arm 2</b> — animated open / close.</li><li><b>Laser Scaler</b> — reference beams and target range.</li><li><b>Water Sampler</b> — collection progress with depth / position.</li><li><b>Ping360 Sonar</b> — rotating sweep with illustrative echoes.</li></ul><p>In 3D Studio, select M2 PRO MAX → Accessories (K). Four separate stations animate each function. In Simulation, press K, select a tool, arm, then test underwater. Disarm stops tool actions.</p><div class="docs-tip">Recovery concept: align → contact → magnet ON → locks verified → load-transfer check → magnet OFF → retention check → lift.</div><p class="docs-small">Hold L for 1.5 seconds in Water Operation to deploy or retrieve; release early to cancel. Accessory fit, sonar echoes and recovery timing are illustrative.</p></div></details>
+    <details><summary>Trials &amp; validation <span>04</span></summary><div class="docs-detail"><ol><li>Start in calm water and check each axis.</li><li>Enable waves; compare motion and recovery.</li><li>In ROV pilot, record the trial and download its log.</li></ol><p>Leaving Simulation starts a fresh trial when reopened. Download your ROV log first.</p><div class="docs-tip">Browser training only. No live vehicle connection. Geometry, water response and hardware reliability still require measurement and field validation.</div></div></details>
+   </section>
+   <section class="docs-files" aria-labelledby="docsFilesTitle"><div class="docs-section-title"><span>PROJECT FILES</span><h2 id="docsFilesTitle">Design resources</h2></div>
+    <a href="./downloads/Recovery_Studio_Complete.zip" download><span><b>Complete project</b><small>Application source + CAD + notes</small></span><em>ZIP ↓</em></a>
+    <a href="./downloads/D_Magnetic_Capture.step" download><span><b>Magnetic capture assembly</b><small>Concept geometry · unmeasured interfaces</small></span><em>STEP ↓</em></a>
+    <a href="./downloads/Magnetic_Design_Notes.md" download><span><b>Magnet &amp; mechanical lock</b><small>Design assumptions and power sequence</small></span><em>MD ↓</em></a>
+    <a href="./downloads/Flow_Recovery.md" download><span><b>Recovery in current</b><small>Alignment, sensing and retry logic</small></span><em>MD ↓</em></a>
+    <a href="./downloads/Engineering_Notes.md" download><span><b>Engineering notes</b><small>Load calculations and control assumptions</small></span><em>MD ↓</em></a>
+    <p class="docs-file-note">Research concepts · not fabrication approval.</p>
+   </section>
+  </div>
+ </div>
+</section>
+
+<div id="studioPanel" role="tabpanel" aria-labelledby="studioTab" hidden>
+<p id="studioLoadState" class="studio-load-state" role="status" hidden></p>
+<section class="project-heading" aria-labelledby="researchProjectTitle">
+<p class="project-eyebrow">Research Project</p>
+<h1 id="researchProjectTitle">Integrated USV–ROV Deployment and Teleoperation</h1>
+<ul class="project-team" aria-label="Research project team"><li>Assoc Prof Dr Wan Yusof Rahiman</li><li>Wan Abdul Syaqur Norzam</li><li>Affan Iman Azman</li><li>Ishtiak Ahmed</li></ul>
+<nav class="technology-strip" aria-label="Project platforms and planned technology">
+<div class="technology-group"><span class="technology-label">Platforms &amp; technology</span><div class="technology-logos">
+<a href="https://www.oceanalpha.com/inland-water-survey/me120-usv/" target="_blank" rel="noopener noreferrer" aria-label="OceanAlpha — ME120"><img class="tech-oceanalpha" src="./branding/oceanalpha-logo.png" alt="OceanAlpha" width="350" height="100"></a>
+<a href="https://www.chasing.com/en/chasing-m2pro-max-overview.html" target="_blank" rel="noopener noreferrer" aria-label="CHASING — M2 PRO MAX"><img class="tech-chasing" src="./branding/chasing-logo.png" alt="CHASING" width="432" height="60"></a>
+<a href="https://www.starlink.com/roam" target="_blank" rel="noopener noreferrer" aria-label="Starlink — internet backhaul"><img class="tech-starlink" src="./branding/starlink-logo-white.png" alt="Starlink" width="612" height="101"></a>
+<a href="https://www.hikvision.com/en/products/IP-Products/PTZ-Cameras/" target="_blank" rel="noopener noreferrer" aria-label="Hikvision — PTZ camera"><img class="tech-hikvision" src="./branding/hikvision-logo-white.png" alt="Hikvision" width="1953" height="254"></a>
+</div></div>
+<div class="technology-group planned"><span class="technology-label"><i aria-hidden="true"></i>Perception &amp; compute</span><div class="technology-logos">
+<a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/" target="_blank" rel="noopener noreferrer" aria-label="NVIDIA Jetson Orin NX — planned integration"><img class="tech-nvidia" src="./branding/nvidia-logo.svg" alt="NVIDIA"><small>Orin NX · Planned</small></a>
+<a href="https://www.stereolabs.com/" target="_blank" rel="noopener noreferrer" aria-label="Stereolabs ZED stereo camera — photographed installation"><img class="tech-stereolabs" src="./branding/stereolabs-logo.svg" alt="Stereolabs"><small>ZED stereo camera</small></a>
+<a href="https://www.robosense.ai/en" target="_blank" rel="noopener noreferrer" aria-label="RoboSense 3D LiDAR — photographed installation"><img class="tech-robosense" src="./branding/robosense-logo-header.png" alt="RoboSense"><small>3D LiDAR</small></a>
+</div></div>
+</nav>
+</section>
+<main>
+<section class="workspace">
+<div class="viewerhead"><div class="subjects" role="group" aria-label="Model"><button data-subject="me120" class="active">ME120</button><button data-subject="rov">M2 PRO MAX</button><button data-subject="system">Assembly</button></div><span class="mechanismname">Magnetic recovery</span><button id="howHardwareWorks" aria-expanded="false" aria-controls="hardwareLesson">▶ How it works</button><button id="m2TrainingButton" class="m2-training-button" data-m2-guide="" hidden>Training guide</button><button id="details" aria-controls="inspector" aria-expanded="false">Details</button><div class="studio-exports"><button data-studio-only hidden id="exportGLB" title="Export current 3D view">GLB ↓</button><button data-studio-only hidden id="sourceButton" aria-label="Model information">i</button></div></div>
+<section id="hardwareLesson" hidden aria-label="How the hardware works"></section>
+<div id="viewport"><div class="viewtag"><div class="vehicle-title"><img id="oceanalphaLogo" class="vehicle-logo oceanalpha-logo" src="./branding/oceanalpha-logo.png" alt="OceanAlpha" width="350" height="100"><img id="chasingLogo" class="vehicle-logo chasing-logo" src="./branding/chasing-logo.png" alt="CHASING" width="432" height="60" hidden><span id="vehicleTitleDivider" aria-hidden="true"></span><h1 id="conceptTitle">ME120</h1><span id="vehicleDescription" class="vehicle-description">Multi-Payload USV for Inland and Nearshore Survey Operations</span></div><small id="scaleNote">Metre scale · fit unverified</small><span id="modelStatus">Loading original models…</span></div><div class="viewtools"><button data-camera="iso" class="active" title="Perspective view">Orbit</button><button data-camera="side" title="Side view">Side</button><button data-camera="stern" title="Stern view">Stern</button><button data-camera="tether" class="systemonly">Tether</button><button data-camera="mount" class="systemonly">Mount</button><button data-camera="catch" title="Close view">Close</button><button id="usvCamera" aria-pressed="false">USV camera</button><button id="rovCamera" aria-pressed="false">ROV camera</button><button id="exitCamera" hidden>Exit camera</button></div><div id="cameraHud" hidden><div class="cameraidentity"><b id="cameraLabel">USV · PTZ</b><span>SIMULATED</span></div><div class="reticle" aria-hidden="true"></div><div class="camerameta"><span id="cameraHint">WASD · aim camera</span><output id="cameraData"></output></div></div><section id="positionHud" class="positionhud" aria-label="Simulated positioning data" hidden><header><b>Positioning</b><span>SIM</span></header><small id="positionFrame">Seat datum · Z up</small><div class="positiongrid"><div><small>X offset</small><output id="poseX">—</output></div><div><small>Y offset</small><output id="poseY">—</output></div><div><small>Z offset</small><output id="poseZ">—</output></div><div><small>Yaw error</small><output id="poseYaw">—</output></div><div><small>Seat range</small><output id="poseRange">—</output></div><div><small id="speedFrame">Relative speed</small><output id="poseSpeed">—</output></div></div><footer><span id="poseSource">Model pose</span><b id="poseFreshness">PREVIEW</b></footer></section><div id="motionLegend" class="motionlegend" hidden><span class="planned">➜ Intended</span><span class="moving">➜ Moving</span><small id="motionFrame">Mount relative</small></div><div id="loadError" hidden>Model unavailable. Reload to retry.</div><div class="viewhelp">Drag to orbit · scroll to zoom</div><div class="viewstate" id="viewName">ASSEMBLED</div></div>
+<div id="equipmentBar" class="equipment-bar" aria-label="Equipment information" hidden></div>
+<section id="ptzControls" class="ptzcontrols" hidden><div class="ptzpad" aria-label="PTZ camera direction"><button data-ptz="w" aria-label="Tilt camera up">W <span>Up</span></button><button data-ptz="a" aria-label="Pan camera left">A <span>Left</span></button><button data-ptz="s" aria-label="Tilt camera down">S <span>Down</span></button><button data-ptz="d" aria-label="Pan camera right">D <span>Right</span></button></div><button id="ptzHome">Centre</button><label>Zoom<input id="ptzZoom" type="range" min="1" max="4" step="0.1" value="1"></label><output id="ptzReadout"></output></section><div class="viewcontrols"><label class="wide">Explode <output id="explodeValue">0%</output><input id="explode" type="range" min="0" max="100" value="0"></label><label class="check modelonly"><input id="dimensions" type="checkbox"> Dimensions</label><label class="check systemonly"><input id="hulls" type="checkbox" checked> Vessel</label><label class="check"><input id="water" type="checkbox"> Water</label><label class="check systemonly"><input id="tether" type="checkbox" checked> Tether</label><label class="check systemonly"><input id="focus" type="checkbox" checked> Mechanism</label><label class="check systemonly"><input id="guidance" type="checkbox" checked> Guidance</label><div class="rovtools" id="rovTools"><button id="rovLights" aria-pressed="false" title="Toggle ROV lights (F)">Lights <kbd>F</kbd></button><button id="rovThrusters" aria-pressed="false" title="Visual propeller spin (T)">Thrusters <kbd>T</kbd></button><button id="rovAccessories" aria-pressed="false" title="Explore four animated accessories (K)">Accessories <kbd>K</kbd></button><small id="rovEffectStatus">Visual preview</small></div></div>
+<div id="accessoryGalleryHost"></div><section id="usvTools" class="usvtools" hidden><button id="usvPropellers" aria-pressed="false" title="USV propeller preview (T)">Propellers <kbd>T</kbd></button><div class="liftbuttons"><button id="usvLiftUp">Lift up</button><button id="usvLiftDown">Lift down</button><button id="usvLiftCycle" aria-pressed="false" title="Cycle the lift (H)">Cycle <kbd>H</kbd></button></div><label class="liftcontrol">Lift <output id="usvLiftValue">Raised</output><input id="usvLift" type="range" min="0" max="65" value="0" aria-label="USV lift position: 0 to 65 percent down"><span><small>Raised</small><small>65% max</small></span></label><small class="usvnote">Visual preview · 65% lower stop</small></section><div id="magneticStatus" class="epmstatus" hidden></div><div id="tetherStatus" class="epmstatus secondary" hidden></div><div id="flowDemo" class="flowpanel" hidden><label>Cross-current <output id="flowValue">0.08 m/s</output><input id="flowCurrent" type="range" min="0" max="0.30" step="0.01" value="0.08"></label><label class="check"><input id="mountMotion" type="checkbox" checked> Mount motion</label><small id="dockReadout">Kinematic demo</small></div><div id="cycleBlock" class="cycle" hidden><div class="cyclehead"><strong id="phaseTitle">Raised</strong><div><button id="dockTrial" class="primary">Dock in current</button><button id="reset">↺ Reset</button><button id="play" class="primary">▶ Play</button></div></div><input id="progress" type="range" min="0" max="1000" value="0" aria-label="Deployment and recovery"><div class="phaselabels"><span>Raise</span><span>Lower</span><span>Release</span><span>Mission</span><span>Catch</span><span>Recover</span></div><p id="phaseDetail" hidden></p><div id="faultBanner" hidden role="status"></div></div>
+<div id="metricBlock" class="metrics" hidden><div><small>Moving mass</small><strong id="massMetric">18.5 <span>kg</span></strong></div><div><small>Lift demand</small><strong id="forceMetric">297 <span>N</span></strong></div><div><small>Resistance target</small><strong id="targetMetric">594 <span>N</span></strong></div><span class="estimates">Estimates</span></div>
+</section>
+<aside class="inspector" id="inspector" hidden><div class="tabs" role="tablist"><button class="active" data-tab="assembly">Catch</button><button data-tab="loads">Loads</button><button data-tab="logic">Logic</button><button id="closeDetails" aria-label="Close details">×</button></div>
+<section id="assemblyPanel" class="panel"><h2>Magnet → lock → lift</h2><ol class="parts" id="catchParts"><li>Original mount</li><li>Magnetic head</li><li>Two locking pins</li><li>ROV yoke</li></ol><input id="magnet" type="checkbox" checked hidden><figure id="mountReference"><img src="./models/user-mount-reference.png" alt="Your selected underside ring mount" width="231" height="213"><figcaption>Your selected mount</figcaption></figure><section id="epmDetails" hidden><p><b>Contact → magnet ON → pins locked → load check → magnet OFF.</b></p><p class="note">Verify seat and both pins again before lifting. Electronics remain powered.</p><details><summary>Flowing-water recovery</summary><p><a href="./downloads/Flow_Recovery.md" download>Flow and control notes ↓</a></p><p>Hold the USV into current where propulsion and tether permit. ROV waits below the mount, tracks its relative position and motion, corrects lateral error/yaw, then inserts slowly after a stable alignment window.</p><p>Use a docking camera/marker with sonar backup when visibility is poor; DVL/depth/IMU support motion estimation. Actual sensors and CHASING command access remain unresolved.</p><p>Stop insertion on stale pose, excessive motion, poor thrust reserve or tether risk. Retreat only before contact through a verified clear corridor. After contact, preserve existing locks and hold.</p><p>Demo sliders use a reduced kinematic model. Its gains, tolerances and current limit are assumptions, not measured M2 PRO MAX capabilities. Speed margin is command headroom. HOLD pauses the illustration; it does not model physical station keeping.</p></details><details><summary>Power & tether</summary><p><a href="./downloads/Magnetic_Design_Notes.md" download>Design notes ↓</a></p><p>Example: 24 V × 3 A × 0.2 s × 2 pulses = 0.008 Wh/cycle. Coil only; assumptions, not a selected module.</p><p>Reel → dancer/load cell → captive stern fairlead → ROV strain relief. Take up slack only; never pull the ROV into the head.</p><p>Stock E-Reel: manual payout with cable outside straightener; powered take-up after reinserting it. Automatic bidirectional handling needs an approved upgrade.</p><p>On return: contact → magnet ON → both pins verified → check mechanical load transfer → magnet OFF → recheck pins/seat → lift. EPM OFF requires a pulse; cutting its electricity does not remove attraction.</p></details></section><p class="note">Mounts and clearances unverified.</p><details><summary>Concept notes</summary><p id="conceptIntent"></p><p>The magnetic head attaches to your original round mount. The yoke stays on the ROV. All interfaces require measurements.</p></details><a id="cadLink" class="fullbutton" href="./downloads/D_Magnetic_Capture.step" download>Magnetic head + yoke · STEP</a></section>
+<section id="loadsPanel" class="panel" hidden><h2>Load estimate</h2><div id="inputs"></div><details><summary>Advanced</summary><div id="advancedInputs"></div></details><div id="loadResults"></div><button id="exportCalc" class="fullbutton">Calculation · JSON ↓</button><p class="note">Calculated demand ≠ rated capacity.</p></section>
+<section id="logicPanel" class="panel" hidden><h2>Lift interlocks</h2><div id="sensorList"></div><label class="field">Fault test<select id="fault"><option value="none">None</option><option value="slip">Load transfer / slip failure</option><option value="magnet">Magnet state unknown</option><option value="latch">Latch missing</option><option value="tether">Tether tension</option><option value="pose">Pose lost</option><option value="link">Link expired</option></select></label><button id="ack" class="fullbutton">Acknowledge</button><div id="log" class="log" aria-live="polite"></div><details><summary>Control notes</summary><p>Local checks; fresh sensors; explicit rearm. Simulated inputs only. Stock E-Reel payout is manual.</p></details></section></aside>
+</main>
+</div>
+<footer class="project-footer"><span>© 2026 USV–ROV Research Project</span><span class="footer-confidential">Confidential</span><span class="footer-design-credit">Designed by Affan Iman Azman</span><nav aria-label="Project site information"><button data-site-notice="sitePrivacy">Privacy Policy</button><span aria-hidden="true">|</span><button data-site-notice="siteTerms">Terms &amp; Conditions</button></nav><button data-studio-only hidden id="openSources">Model info</button></footer>
+<dialog id="sitePrivacy" class="site-notice" aria-labelledby="sitePrivacyTitle"><div class="dialoghead"><h2 id="sitePrivacyTitle">Privacy Policy</h2><button data-close-notice aria-label="Close privacy notice">×</button></div><div class="dialogbody"><small>Project site notice</small><p>Demo settings and calculations run in your browser. The project code does not submit them to a server or add contact forms or analytics. Exports download to your device.</p><p>Hosting and external websites may process connection data under their own policies. Future YouTube links open on YouTube; no external player is embedded here.</p></div></dialog>
+<dialog id="siteTerms" class="site-notice" aria-labelledby="siteTermsTitle"><div class="dialoghead"><h2 id="siteTermsTitle">Terms &amp; Conditions</h2><button data-close-notice aria-label="Close terms notice">×</button></div><div class="dialogbody"><small>Project site notice</small><p>This site presents research concepts and browser demonstrations. It does not provide field-validated performance or fabrication approval. Controls affect the demonstration only.</p><p>Third-party names, logos and referenced material belong to their respective owners. Their use does not imply endorsement.</p></div></dialog>
+<dialog id="sources"><div class="dialoghead"><h2>Model information</h2><button id="closeSources" aria-label="Close evidence">×</button></div><div class="dialogbody"><p><b>Magnetic:</b> electro-permanent magnet (EPM) uses brief ON/OFF pulses; mechanical pins carry the load. After both locks and load transfer are verified, command an OFF pulse and recheck retention before lifting. EPMs already require no coil holding current; OFF removes magnetic attraction rather than saving EPM hold energy. This is a proposed sealed module, not a selected underwater-rated product. Wet pole-gap performance, corrosion, release residuals, magnetic interference, yoke buoyancy and all structural paths need testing.</p><p><b>Tether:</b> the proposed centerline stern fairlead is placed aft of the reference propeller region. Full sweep, slack, bend radius and propeller clearance are unverified. The OEM E-Reel manual requires manual straightener rerouting between payout and take-up.</p><p><a href="https://www.wagner-magnete.com/en/industry-solutions/detail/138-electro-permanent-lifting-magnet-5180n/" target="_blank" rel="noopener">EPM principle · industrial reference only</a> · <a href="https://web.file.chasing.com/lvX6ye-v0YP6j1dCz6_hN4Y6tnUA" target="_blank" rel="noopener">Official E-Reel manual</a></p><p><b>Restored:</b> the original detailed vehicle models from your ME120 Design Lab. Units are metres. Hull length/beam and the ROV body envelope follow nominal dimensions; individual parts and mounting interfaces remain photo-derived.</p><p><b>Your mount:</b> The magnetic assembly uses the original underside ring and twin moving tubes. The new adapter stays aligned with the ring through the 65% lower stop (271.7 mm modeled travel). No new independent lift tower. The raised cradle remains wet; full-travel clearance, tube engagement and transport stow require measurement.</p><p><b>Published:</b> ME120 current brochure: 2.5 × 1.4 m, 160 kg excluding lifter, 60 kg payload. Older brochures list 45 kg payload. Confirm the vessel revision and loading definition. Neither figure is a lifter rating.</p><p><b>Published:</b> M2 PRO MAX: approximately 8 kg, 608 × 294 × 196 mm excluding floodlights. E-Reel: 3.5 kg; included tether mass is unclear. Weigh the ready-to-operate equipment.</p><p><b>Unmeasured:</b> Ø170/Ø74 mm reference ring, blank adapter and 271.7 mm limited illustrated travel. No mounting-hole pattern is supplied. Support contacts and added masses remain estimates.</p><p><b>Camera views:</b> synthetic renderings from the existing underside PTZ and ROV front lens. USV pan and −80° to 0° tilt are preview settings. FOV and zoom are illustrative. No video stream, real camera or robot control is connected.</p><p><b>Required evidence:</b> lifter/structural load and moment ratings, support contacts, brake and transport lock capacities, motor/actuator geometry across travel, corrosion and fatigue assessment, loaded trim/freeboard and physical collision checks.</p><ul><li><a href="https://www.oceanalpha.com/wp-content/uploads/2026/07/ME120-OceanAlpha.pdf" target="_blank" rel="noopener">OceanAlpha current ME120 brochure</a></li><li><a href="https://nautikaris.com/wp-content/uploads/2024/12/ME120-OceanAlpha.pdf" target="_blank" rel="noopener">OceanAlpha-authored earlier ME120 brochure</a></li><li><a href="https://www.chasing.com/en/service-support/chasing-m2-pro-max.html" target="_blank" rel="noopener">CHASING M2 PRO MAX manuals</a></li><li><a href="https://na-file.chasing.com/ltWgw4lZoQ7OvgSnLHiGc5Yeku2-" target="_blank" rel="noopener">CHASING manufacturer manual</a></li><li><a href="https://www.imca-int.com/resources/safety/safety-flashes/1111-equipment-damage-dropped-rovtether-management-system-tms/" target="_blank" rel="noopener">IMCA: incomplete latch verification incident</a></li></ul><p>Mechanical and interface research, independent calculation review, and CAD asset authoring were carried out in parallel. No real-water trials, FEA, Gazebo hydrodynamic runs or manufacturer approvals are claimed.</p><p><a href="./downloads/Engineering_Notes.md" download>Calculation and control notes ↓</a></p></div></dialog>
+<script type="module" src="./overview.mjs?v=tools-az"></script>
+<script type="module" src="./research-background.mjs?v=studio-aq"></script>
+</body></html>

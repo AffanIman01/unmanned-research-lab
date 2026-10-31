@@ -1,0 +1,91 @@
+{
+  "scope": "Reduced kinematic and synthetic guard checks; not physical validation",
+  "tests": [
+    {
+      "name": "OFF inhibited for each missing retention observation",
+      "passed": true
+    },
+    {
+      "name": "Lift requires fresh post-OFF retention evidence",
+      "passed": true
+    },
+    {
+      "name": "Capture ordering and no magnetic load dependence after transfer",
+      "passed": true
+    },
+    {
+      "name": "Reduced model completes with 0 m/s cross-current",
+      "passed": true
+    },
+    {
+      "name": "Reduced model completes with 0.08 m/s cross-current",
+      "passed": true
+    },
+    {
+      "name": "Reduced model completes with 0.15 m/s cross-current",
+      "passed": true
+    },
+    {
+      "name": "Reduced model completes with 0.18 m/s cross-current",
+      "passed": true
+    },
+    {
+      "name": "high current inhibits pre-contact movement",
+      "passed": true
+    },
+    {
+      "name": "pose lost inhibits pre-contact movement",
+      "passed": true
+    },
+    {
+      "name": "tether unclear inhibits pre-contact movement",
+      "passed": true
+    },
+    {
+      "name": "corridor unclear inhibits pre-contact movement",
+      "passed": true
+    },
+    {
+      "name": "Insertion pauses vertical demand while correcting yaw",
+      "passed": true
+    },
+    {
+      "name": "Large alignment loss returns to align and bounded retries stop",
+      "passed": true
+    },
+    {
+      "name": "Partial contact never authorises automatic pull-away",
+      "passed": true
+    }
+  ],
+  "runs": [
+    {
+      "current": 0,
+      "simulatedSeconds": 37.46000000000026,
+      "maxWaterRelativeSpeed": 0.11637760532357318,
+      "maxIntegral": 0.35,
+      "stage": "CONTACT"
+    },
+    {
+      "current": 0.08,
+      "simulatedSeconds": 37.640000000000285,
+      "maxWaterRelativeSpeed": 0.17246100153838803,
+      "maxIntegral": 0.35,
+      "stage": "CONTACT"
+    },
+    {
+      "current": 0.15,
+      "simulatedSeconds": 37.960000000000335,
+      "maxWaterRelativeSpeed": 0.22968914875366686,
+      "maxIntegral": 0.35,
+      "stage": "CONTACT"
+    },
+    {
+      "current": 0.18,
+      "simulatedSeconds": 38.220000000000375,
+      "maxWaterRelativeSpeed": 0.24997205252179297,
+      "maxIntegral": 0.35,
+      "stage": "CONTACT"
+    }
+  ]
+}

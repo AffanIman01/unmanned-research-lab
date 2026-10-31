@@ -1,0 +1,25 @@
+/* Water-operation workspace: wide viewport, quiet controls, matching lab theme. */
+#simulationPanel{background:#20182b;color:#f1e9f6;padding:28px clamp(14px,3vw,46px) 36px}
+#simulationPanel[hidden]{display:none!important}
+.simulation-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:0 0 18px}
+.simulation-heading h1{margin:0;font-size:clamp(23px,2.5vw,34px);font-weight:500;letter-spacing:-1px}
+.simulation-heading p{margin:6px 0 0;font-size:10px;letter-spacing:.4px;color:#ad9aba}
+.simulation-heading-tools{display:flex;align-items:center;gap:16px}
+.simulation-badge{font-size:9px;letter-spacing:.6px;text-transform:uppercase;color:#c6ac83;white-space:nowrap}
+#simulationReload{padding:8px 13px;font-size:11px;color:#d0bbdb;border:1px solid #a183b83b;background:#34264066;border-radius:4px;cursor:pointer}
+#simulationReload:hover{background:#4c375b88;color:#f1e9f6}
+#simulationReload:focus-visible,.simulation-fallback:focus-visible{outline:2px solid #edbf78;outline-offset:4px}
+.simulation-viewport{position:relative;height:clamp(640px,78vh,980px);min-width:0;overflow:hidden;border:1px solid #b69ac22b;border-radius:7px;background:#091a24;box-shadow:0 20px 65px #08070d33}
+#simulationFrameHost{position:absolute;inset:0}
+#simulationFrameHost iframe{display:block;border:0;width:100%;height:100%;background:#091a24}
+.simulation-state{position:absolute;inset:0;display:flex;flex-direction:column;gap:17px;align-items:center;justify-content:center;padding:25px;text-align:center;background:radial-gradient(ellipse at 50% 60%,#17465566,transparent 70%),#0b1b27;color:#c3d6df}
+.simulation-state[hidden],.simulation-state [hidden]{display:none!important}
+.simulation-state p{margin:0;font-size:13px;letter-spacing:.2px}
+.simulation-fallback{color:#d9ba88;font-size:11px;text-underline-offset:4px}
+@media(max-width:760px){#simulationPanel{padding:21px 10px 25px}.simulation-heading{gap:10px;padding:0 4px}.simulation-heading-tools{gap:10px}.simulation-badge{font-size:8px;max-width:80px;white-space:normal;line-height:1.5;text-align:right}.simulation-viewport{height:780px;height:max(720px,82svh)}#projectTabs{overflow-x:auto}#projectTabs>button{flex-shrink:0}.project-tabs-note{display:none}}
+@media(prefers-reduced-motion:reduce){#simulationFrameHost iframe{transition:none}}
+.simulation-mode{display:flex;gap:3px;padding:3px;border:1px solid #a183b83b;border-radius:5px;background:#170f23}
+.simulation-mode button{font:600 11px inherit;white-space:nowrap;color:#c6b2ce;background:transparent;border:0;padding:8px 12px;border-radius:3px;cursor:pointer}
+.simulation-mode button.active{color:#1c1d27;background:#d0a8c5}
+.simulation-mode button:focus-visible{outline:2px solid #edbf78;outline-offset:2px}
+@media(max-width:760px){.simulation-heading{align-items:flex-start;flex-direction:column}.simulation-heading-tools{width:100%;justify-content:space-between}.simulation-mode button{padding:7px 8px}}

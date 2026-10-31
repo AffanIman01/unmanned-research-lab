@@ -1,0 +1,189 @@
+{
+  "revision": "Y",
+  "checks": 9,
+  "passed": 9,
+  "scope": "Actual GLB + Three.js geometry and source integration. Bounding-box clearances are visual-model checks, not mechanical validation.",
+  "browserPreview": "Not run: control-browser unavailable",
+  "results": [
+    {
+      "name": "sensor assembly is attached once to the actual antenna node with finite owner geometry",
+      "passed": true
+    },
+    {
+      "name": "ZED is below LiDAR and the hood base rests on the reference crossbar level",
+      "passed": true
+    },
+    {
+      "name": "both camera apertures and window face the boat forward axis",
+      "passed": true
+    },
+    {
+      "name": "inner aerial and sensor housings have nonintersecting local bounding boxes",
+      "passed": true
+    },
+    {
+      "name": "all sensors follow the existing lift by 0.2717 m at the 65% stop without local offsets",
+      "passed": true
+    },
+    {
+      "name": "exploded view separates the three components and restores exact assembly positions",
+      "passed": true
+    },
+    {
+      "name": "two 2.45 m tripod antennas stand on the floor beside and clear of the table",
+      "passed": true
+    },
+    {
+      "name": "ground antenna coax feeds start at each stand and finish at the table radio",
+      "passed": true
+    },
+    {
+      "name": "scene source imports, registers and updates sensor APIs and retains shared lift ownership",
+      "passed": true
+    }
+  ],
+  "measurements": {
+    "sensor-mount": {
+      "min": [
+        -0.11000000010803342,
+        1.8610000001117588,
+        -0.03999999970197678
+      ],
+      "max": [
+        0.11000000010803344,
+        1.9900000000474976,
+        0.14549999994412066
+      ],
+      "size": [
+        0.22000000021606686,
+        0.12899999993573874,
+        0.18549999964609742
+      ]
+    },
+    "zed-camera": {
+      "min": [
+        -0.08749999850988388,
+        1.9280000003352762,
+        0.07699999994784594
+      ],
+      "max": [
+        0.08749999850988388,
+        1.957999999664724,
+        0.1301499999875203
+      ],
+      "size": [
+        0.17499999701976776,
+        0.029999999329447746,
+        0.053150000039674364
+      ]
+    },
+    "robosense-lidar": {
+      "min": [
+        -0.05000000074505806,
+        1.988999999947846,
+        0.021999999254941935
+      ],
+      "max": [
+        0.05000000074505806,
+        2.1010000001080336,
+        0.12220000004749745
+      ],
+      "size": [
+        0.10000000149011612,
+        0.11200000016018752,
+        0.10020000079255552
+      ]
+    },
+    "front-cover": {
+      "min": [
+        -0.05999999865889549,
+        1.7914999998658896,
+        0.15150000014156104
+      ],
+      "max": [
+        0.05999999865889549,
+        1.8974999983608722,
+        0.19900000004749746
+      ],
+      "size": [
+        0.11999999731779099,
+        0.10599999849498265,
+        0.047499999905936424
+      ]
+    },
+    "cameraLidarSeparationM": 0.03100000028312211,
+    "innerAerial": {
+      "min": [
+        -0.08900000154972076,
+        1.9950000047683716,
+        -0.020999999716877937
+      ],
+      "max": [
+        -0.07100000232458115,
+        2.618000030517578,
+        -0.003000000026077032
+      ],
+      "size": [
+        0.017999999225139618,
+        0.6230000257492065,
+        0.017999999690800905
+      ]
+    },
+    "lidarAerialForeAftGapM": 0.024999999281018967,
+    "gcs-antenna-1": {
+      "min": [
+        -1.9506620477356058,
+        -0.2799999996647239,
+        1.297000000178814
+      ],
+      "max": [
+        -0.9693379522643942,
+        2.169999999940395,
+        2.1468515962026693
+      ],
+      "size": [
+        0.9813240954712116,
+        2.449999999605119,
+        0.8498515960238553
+      ]
+    },
+    "gcs-antenna-2": {
+      "min": [
+        0.969337952264394,
+        -0.2799999996647239,
+        1.553148403797331
+      ],
+      "max": [
+        1.9506620477356058,
+        2.169999999940395,
+        2.402999999821186
+      ],
+      "size": [
+        0.9813240954712118,
+        2.449999999605119,
+        0.8498515960238551
+      ]
+    },
+    "table": {
+      "min": [
+        -0.800000011920929,
+        -0.27950000018626453,
+        1.3000000059604644
+      ],
+      "max": [
+        0.800000011920929,
+        0.5105000000130385,
+        2.0080000002160667
+      ],
+      "size": [
+        1.600000023841858,
+        0.790000000199303,
+        0.7079999942556023
+      ]
+    },
+    "tableSideGapsM": [
+      0.16933794034346528,
+      0.16933794034346505
+    ]
+  }
+}

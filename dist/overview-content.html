@@ -1,0 +1,131 @@
+<div id="overviewProjectHeading"></div>
+<div class="ov-shell">
+  <section class="ov-hero" aria-labelledby="overviewTitle">
+    <div class="ov-hero-copy">
+      <p class="ov-eyebrow">Integrated surface &amp; underwater robotics</p>
+      <h2 id="overviewTitle">Project overview</h2>
+      <p class="ov-intro">Developing an ME120–M2 PRO MAX system for remote inspection, coordinated control and ROV deployment and recovery.</p>
+      <button class="ov-primary" data-open-studio="me120">Explore 3D studio <span aria-hidden="true">↗</span></button>
+      <p class="ov-progress"><span aria-hidden="true"></span>Research in progress</p>
+    </div>
+    <figure class="ov-concept">
+      <div class="ov-concept-viewport"><img id="overviewConceptImage" src="./overview-concept/poster.png" data-animation="./overview-concept/concept.gif" data-poster="./overview-concept/poster.png" width="1000" height="560" alt="Illustrative USV–ROV concept: a surface vessel links a remote operator to a tethered underwater robot and its recovery mechanism."><button id="toggleConceptAnimation" class="ov-animation-toggle" aria-pressed="false" aria-controls="overviewConceptImage">Play animation</button></div>
+      <figcaption>Concept animation · illustrative</figcaption>
+    </figure>
+  </section>
+
+<section class="ov-proposal" aria-label="Problem and proposed solution">
+    <article class="ov-problem"><span class="ov-section-index" aria-hidden="true">01</span><h2>Problem</h2><p>Tether handling, moving water and separate control interfaces complicate remote ROV deployment and recovery.</p></article>
+    <article class="ov-solution"><span class="ov-section-index" aria-hidden="true">02</span><h2>Our solution</h2><p>A USV gateway, shared controls and magnet-assisted mechanical capture. Simulation first; staged water trials planned.</p></article>
+  </section>
+
+  <section class="ov-focus" aria-labelledby="researchFocusTitle">
+    <div class="ov-section-heading"><h2 id="researchFocusTitle">Research focus</h2><span>Hover or tap · 2D concepts</span></div>
+    <div class="ov-capabilities">
+      <article class="ov-capability is-active" data-capability="teleoperation">
+        <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./focus-motion/teleoperation-poster.png" data-animation="./focus-motion/teleoperation.gif" data-poster="./focus-motion/teleoperation-poster.png" width="600" height="360" alt="" loading="lazy"></div><button class="ov-preview-toggle" aria-label="Play teleoperation animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+        <span class="ov-capability-number" aria-hidden="true">01</span>
+        <div class="ov-capability-copy"><h3>Teleoperation</h3><p id="capabilityTeleoperation">GUI prototype · simulation first</p></div>
+        <button class="ov-capability-toggle" aria-expanded="true" aria-controls="capabilityTeleoperation" aria-label="Show teleoperation research"></button>
+        <button class="ov-capability-action" data-open-studio="hardware" data-lesson="links" aria-label="See the proposed teleoperation control link">Control link <span aria-hidden="true">↗</span></button>
+      </article>
+      <article class="ov-capability" data-capability="perception">
+        <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./focus-motion/perception-poster.png" data-animation="./focus-motion/perception.gif" data-poster="./focus-motion/perception-poster.png" width="600" height="360" alt="" loading="lazy"></div><button class="ov-preview-toggle" aria-label="Play perception animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+        <span class="ov-capability-number" aria-hidden="true">02</span>
+        <div class="ov-capability-copy"><h3>Perception</h3><p id="capabilityPerception">ZED + LiDAR · integration in progress</p></div>
+        <button class="ov-capability-toggle" aria-expanded="false" aria-controls="capabilityPerception" aria-label="Show perception research"></button>
+        <button class="ov-capability-action" data-open-studio="hardware" aria-label="See how the ZED camera and LiDAR work">See sensing <span aria-hidden="true">↗</span></button>
+      </article>
+      <article class="ov-capability" data-capability="recovery">
+        <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./focus-motion/recovery-poster.png" data-animation="./focus-motion/recovery.gif" data-poster="./focus-motion/recovery-poster.png" width="600" height="360" alt="" loading="lazy"></div><button class="ov-preview-toggle" aria-label="Play recovery animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+        <span class="ov-capability-number" aria-hidden="true">03</span>
+        <div class="ov-capability-copy"><h3>Recovery</h3><p id="capabilityRecovery">Magnetic capture · mechanical locking concept</p></div>
+        <button class="ov-capability-toggle" aria-expanded="false" aria-controls="capabilityRecovery" aria-label="Show recovery research"></button>
+        <button class="ov-capability-action" data-open-studio="system" aria-label="Explore the magnetic recovery concept">View concept <span aria-hidden="true">↗</span></button>
+      </article>
+      <article class="ov-capability" data-capability="validation">
+        <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./focus-motion/validation-poster.png" data-animation="./focus-motion/validation.gif" data-poster="./focus-motion/validation-poster.png" width="600" height="360" alt="" loading="lazy"></div><button class="ov-preview-toggle" aria-label="Play validation animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+        <span class="ov-capability-number" aria-hidden="true">04</span>
+        <div class="ov-capability-copy"><h3>Validation</h3><p id="capabilityValidation">Simulation + planned water trials</p></div>
+        <button class="ov-capability-toggle" aria-expanded="false" aria-controls="capabilityValidation" aria-label="Show validation research"></button>
+        <button class="ov-capability-action" data-open-simulation aria-label="Open the water-operation simulation">Simulate <span aria-hidden="true">↗</span></button>
+      </article>
+    </div>
+  </section>
+
+  <section id="researchReadiness" class="ov-readiness" aria-labelledby="readinessTitle">
+    <div class="ov-section-heading"><h2 id="readinessTitle">Technology Readiness Level <span class="ov-heading-acronym">(TRL)</span></h2><span class="ov-trl-badge">Current · TRL 2 <small>Provisional</small></span></div>
+    <div class="ov-trl-scale" role="group" aria-label="Explore technology readiness levels">
+      <button class="ov-trl-level" data-trl="1" aria-pressed="false" aria-label="TRL 1: basic principles"><strong>1</strong><span>Principles</span></button>
+      <button class="ov-trl-level is-current" data-trl="2" data-current="true" aria-pressed="true" aria-label="TRL 2: concept defined; current provisional project level"><strong>2</strong><span>Concept</span></button>
+      <button class="ov-trl-level is-next" data-trl="3" aria-pressed="false" aria-label="TRL 3: experimental proof of concept"><strong>3</strong><span>Proof</span></button>
+      <button class="ov-trl-level" data-trl="4" aria-pressed="false" aria-label="TRL 4: validated in the laboratory"><strong>4</strong><span>Lab</span></button>
+      <button class="ov-trl-level" data-trl="5" aria-pressed="false" aria-label="TRL 5: validated in a relevant environment"><strong>5</strong><span>Relevant</span></button>
+      <button class="ov-trl-level" data-trl="6" aria-pressed="false" aria-label="TRL 6: demonstrated in a relevant environment"><strong>6</strong><span>Prototype</span></button>
+      <button class="ov-trl-level" data-trl="7" aria-pressed="false" aria-label="TRL 7: prototype demonstration in an operational environment"><strong>7</strong><span>Demo</span></button>
+      <button class="ov-trl-level" data-trl="8" aria-pressed="false" aria-label="TRL 8: system complete and qualified"><strong>8</strong><span>Qualified</span></button>
+      <button class="ov-trl-level" data-trl="9" aria-pressed="false" aria-label="TRL 9: system proven in operational use"><strong>9</strong><span>Operational</span></button>
+    </div>
+    <div class="ov-trl-spectrum" aria-hidden="true"><div class="ov-trl-spectrum-line"><i></i></div><span class="ov-trl-current-marker"></span></div>
+    <div class="ov-trl-spectrum-legend"><span>Research</span><span>Development</span><span>Deployment</span><button id="replayTrlSpectrum" type="button" aria-label="Replay readiness pathway animation" title="Replay pathway"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+    <div class="ov-trl-detail" aria-live="polite"><div><h3 id="trlDetailTitle">Technology concept defined</h3><p id="trlDetailText">Integrated hardware proof remains planned.</p></div><span id="trlDetailStatus">Current · provisional</span></div>
+    <p class="ov-trl-note">Project self-assessment · integrated system</p>
+    <div class="ov-readiness-details">
+      <details class="ov-benchmarks"><summary>Validation benchmarks</summary><table><caption>Baseline measurements are not yet established.</caption><thead><tr><th scope="col">Measure</th><th scope="col">Evidence</th></tr></thead><tbody><tr><th scope="row">Recovery success</th><td>Measurement planned</td></tr><tr><th scope="row">Control latency</th><td>Measurement planned</td></tr><tr><th scope="row">Locked hold power</th><td>Measurement planned</td></tr><tr><th scope="row">Mission completion</th><td>Measurement planned</td></tr></tbody></table></details>
+      <details class="ov-trl-basis"><summary>Assessment basis</summary><p>This provisional rating concerns the integrated research system, not the commercial vehicles. It requires review against documented experimental evidence.</p><p><a href="https://eic.ec.europa.eu/programme-finder-13_en" target="_blank" rel="noopener noreferrer">European Innovation Council · TRL framework ↗</a></p></details>
+    </div>
+  </section>
+
+  <section class="ov-next-stage" aria-labelledby="nextStageTitle">
+    <div class="ov-section-heading"><h2 id="nextStageTitle">Next validation stage</h2><span>Planned milestones</span></div>
+    <ol class="ov-milestones"><li><span>TRL 3</span><strong>Capture &amp; control proof</strong></li><li><span>TRL 4</span><strong>Integrated lab validation</strong></li><li><span>TRL 5</span><strong>Current &amp; link disturbances</strong></li><li><span>TRL 6</span><strong>Prototype water demonstration</strong></li></ol>
+    <div class="ov-funding"><p>Control integration · recovery prototype · instrumented water trials</p><a href="#researchReadiness">Seeking research and validation partners <span aria-hidden="true">↗</span></a></div>
+  </section>
+
+  <section class="ov-team-section" aria-labelledby="researchTeamTitle">
+    <div class="ov-section-heading"><h2 id="researchTeamTitle">Meet our Research Team</h2><span>Universiti Sains Malaysia</span></div>
+    <div class="ov-team-grid">
+      <article class="ov-person"><figure class="ov-portrait"><img src="./team/wan-yusof-rahiman.webp" alt="Assoc Prof Dr Wan Yusof Rahiman — Research team lead" width="1254" height="1254" loading="lazy"></figure><div><h3>Assoc Prof Dr Wan Yusof Rahiman</h3><p>Research team lead</p></div></article>
+      <article class="ov-person"><figure class="ov-portrait"><img src="./team/syaqur-sample.jpg" alt="Fictional sample portrait; Wan Abdul Syaqur Norzam photo pending" width="256" height="320" loading="lazy"><figcaption>Sample portrait</figcaption></figure><div><h3>Wan Abdul Syaqur Norzam</h3><p>Research team</p></div></article>
+      <article class="ov-person"><figure class="ov-portrait"><img src="./team/affan.png" alt="Affan Iman Azman" width="256" height="320" loading="lazy"></figure><div><h3>Affan Iman Azman</h3><p>Software integration &amp; control systems</p></div></article>
+      <article class="ov-person"><figure class="ov-portrait"><img src="./team/ishtiak-ahmed.png" alt="Ishtiak Ahmed — Mechanical design" width="400" height="400" loading="lazy"></figure><div><h3>Ishtiak Ahmed</h3><p>Mechanical design</p></div></article>
+    </div>
+  </section>
+
+  <section class="ov-applications" aria-labelledby="applicationsTitle">
+    <div class="ov-section-heading"><h2 id="applicationsTitle">Research potential</h2><span>Future applications</span></div>
+    <p class="ov-applications-intro">From a shared research platform to sector-specific inspection tools.</p>
+    <div class="ov-capabilities ov-potential-grid">
+<article class="ov-capability is-active" data-capability="application-ports">
+      <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./application-motion/ports-poster.png" data-animation="./application-motion/ports.gif" data-poster="./application-motion/ports-poster.png" width="640" height="400" alt="" loading="lazy"></div>
+      <span class="ov-potential-label">3D concept</span><button class="ov-preview-toggle" aria-label="Play Ports and infrastructure animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+      <div class="ov-capability-copy"><h3>Ports &amp; infrastructure</h3><p id="application-ports-description">Document quay walls, piles and submerged structures for maintenance planning.</p></div>
+      <button class="ov-capability-toggle" aria-expanded="true" aria-controls="application-ports-description" aria-label="Explore Ports and infrastructure"></button>
+      <span class="ov-potential-stage">Early pilot candidate</span>
+    </article>
+<article class="ov-capability" data-capability="application-reservoir">
+      <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./application-motion/reservoir-poster.png" data-animation="./application-motion/reservoir.gif" data-poster="./application-motion/reservoir-poster.png" width="640" height="400" alt="" loading="lazy"></div>
+      <span class="ov-potential-label">3D concept</span><button class="ov-preview-toggle" aria-label="Play Reservoirs and water assets animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+      <div class="ov-capability-copy"><h3>Reservoirs &amp; water assets</h3><p id="application-reservoir-description">Link surface surveys with underwater observations and repeatable inspection records.</p></div>
+      <button class="ov-capability-toggle" aria-expanded="false" aria-controls="application-reservoir-description" aria-label="Explore Reservoirs and water assets"></button>
+      <span class="ov-potential-stage">Early pilot candidate</span>
+    </article>
+<article class="ov-capability" data-capability="application-aquaculture">
+      <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./application-motion/aquaculture-poster.png" data-animation="./application-motion/aquaculture.gif" data-poster="./application-motion/aquaculture-poster.png" width="640" height="400" alt="" loading="lazy"></div>
+      <span class="ov-potential-label">3D concept</span><button class="ov-preview-toggle" aria-label="Play Aquaculture animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+      <div class="ov-capability-copy"><h3>Aquaculture</h3><p id="application-aquaculture-description">Explore net and mooring inspections to support farm maintenance decisions.</p></div>
+      <button class="ov-capability-toggle" aria-expanded="false" aria-controls="application-aquaculture-description" aria-label="Explore Aquaculture"></button>
+      <span class="ov-potential-stage">Sector adaptation</span>
+    </article>
+<article class="ov-capability" data-capability="application-energy">
+      <div class="ov-capability-art" aria-hidden="true"><img class="ov-focus-animation" src="./application-motion/energy-poster.png" data-animation="./application-motion/energy.gif" data-poster="./application-motion/energy-poster.png" width="640" height="400" alt="" loading="lazy"></div>
+      <span class="ov-potential-label">3D concept</span><button class="ov-preview-toggle" aria-label="Play Nearshore energy animation" aria-pressed="false"><span aria-hidden="true">↗</span></button>
+      <div class="ov-capability-copy"><h3>Nearshore energy</h3><p id="application-energy-description">Adapt validated methods for foundations, moorings and accessible underwater assets.</p></div>
+      <button class="ov-capability-toggle" aria-expanded="false" aria-controls="application-energy-description" aria-label="Explore Nearshore energy"></button>
+      <span class="ov-potential-stage">Longer-term extension</span>
+    </article>
+    </div>
+    <div class="ov-partner-note"><strong>Open to research &amp; validation partners</strong><span>Pilot sites · technical collaboration · validation funding</span></div>
+    <details class="ov-sector-basis"><summary>Application basis</summary><p>Proposed directions, subject to sector requirements and field validation. These are not demonstrated services or confirmed partnerships.</p><div><a href="https://www.oceanalpha.com/inland-water-survey/me120-usv/" target="_blank" rel="noopener noreferrer">OceanAlpha · inland &amp; nearshore use ↗</a><a href="https://forum.chasing.com/d/63-chasing-underwater-drone-chasing-m2-pro-max-promotional-video" target="_blank" rel="noopener noreferrer">CHASING · industrial inspection ↗</a><a href="https://www.sintef.no/en/projects/2024/aquastar-autonomous-underwater-system-for-targeted-assessment-and-repair/" target="_blank" rel="noopener noreferrer">SINTEF · aquaculture research ↗</a></div></details>
+  </section>
+</div>

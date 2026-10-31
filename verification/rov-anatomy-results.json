@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": [
+    "14 component owners have finite nonempty geometry and training links",
+    "all five capped ports sit below the main cabin centerline",
+    "eight propellers and two lamps remain animated",
+    "overall reference envelope is unchanged by service details",
+    "component enrichment is idempotent",
+    "every ROV part opens with a finite close-up and matching title",
+    "small parts are framed closer than the full vehicle",
+    "lights and rotor buttons dispatch the intended visual effect",
+    "ROV camera action opens ROV camera mode",
+    "direct lens click resolves camera, not full-body box",
+    "direct service-cap click resolves microSD over main cabin",
+    "underside interface click resolves the accessory port group",
+    "battery parts follow their parent in exploded position",
+    "explode and onboard modes hide component inspection",
+    "closing a part restores the saved orbit view"
+  ],
+  "componentCount": 14,
+  "scope": "Actual reference GLB, geometry, ray picking, card actions and camera framing. Browser WebGL rendering not verified."
+}

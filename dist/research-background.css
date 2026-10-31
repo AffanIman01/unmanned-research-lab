@@ -1,0 +1,18 @@
+/* Restored USM plum palette, gently darker than the original page. */
+:root{--bg:#1b1424;--panel:#261d30;--line:#44344f}
+html,body{background-color:var(--bg)}
+body{isolation:isolate;background-image:none}
+.research-background{position:fixed;inset:0;z-index:-1;pointer-events:none;contain:strict;background:radial-gradient(ellipse at 5% 8%,#65418118,transparent 42%),var(--bg)}
+body #overviewPanel,body #videosPanel,body #studioPanel,body #simulationPanel{background:transparent}
+body .project-heading{background:radial-gradient(ellipse at 50% 0%,#5f259f20,transparent 75%)}
+body #projectTabs{background:#20182b;border-bottom-color:#674b7340}
+/* The university strip spans the page; logos retain their original alignment. */
+body>.topbar{background:#94869f;border-bottom-color:#d9c9e017}
+body>.topbar .institution{padding:0;border-radius:0;background:transparent}
+body #overviewPanel .ov-capability{background:linear-gradient(155deg,#362641,#251b30 76%)}
+body #overviewPanel .ov-capability.is-active{background:linear-gradient(145deg,#3f2a49,#291d33 76%)}
+body #overviewPanel .ov-concept-viewport{background:#1c1525}
+body #videosPanel .vid-thumbnail{background:#17141f}
+body #viewport:not(.onboard){background:radial-gradient(ellipse at 50% 40%,#33293d,#1c1525 78%)}
+body #simulationPanel .simulation-viewport,body #simulationFrameHost iframe{background:#130e19}
+body #simulationPanel .simulation-state{background:radial-gradient(ellipse at 50% 60%,#65418118,transparent 70%),#130e19}

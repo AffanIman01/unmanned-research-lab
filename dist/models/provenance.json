@@ -1,0 +1,14 @@
+{
+  "source": "Earlier ME120 Design Lab",
+  "sourceCommit": "2f26e8bbed6f2376e5a6df6befb3755d56894be6",
+  "byteIdenticalAssets": {
+    "compute-enclosure-concept.glb": true,
+    "chasing-e-reel-reference.glb": true,
+    "chasing-m2-pro-max-reference.glb": true,
+    "starlink-mini-concept.glb": true,
+    "me120-reference.glb": true
+  },
+  "transforms": "Front +Z to +X rotation; original display pose; hull transverse scale normalised from 1.40512 to nominal 1.40000 m. ROV retains original 0.608 x 0.294 x 0.196 m no-lights envelope.",
+  "unverified": "Mounting dimensions, shape details, accessories, configured fit, stroke and operating limits remain unmeasured.",
+  "displayRevision": "Rev J: compute-enclosure-concept.glb omitted from the scene at user request; original asset retained. OEM mount animation limited to 65% of former 418 mm reference stroke (271.7 mm)."
+}

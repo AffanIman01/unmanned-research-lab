@@ -1,0 +1,29 @@
+{
+  "type": "original_procedural_3d_animation",
+  "field_footage": false,
+  "engineering_validation": false,
+  "actual_reference_meshes": {
+    "me120-reference.glb": "6127c9dd0ce3e91ed45fd00d641bd18cd0a82636744dfacccf005cc7e957f8bf",
+    "chasing-m2-pro-max-reference.glb": "204ab95dd18d7d50c4b73ebb80fb72b06b83665171357bdcba4366dd46ddfb9d"
+  },
+  "rendering": "CPU triangle projection with lighting and translucent water cutaway",
+  "dimensions": [
+    720,
+    450
+  ],
+  "frames": 40,
+  "frames_per_second": 10,
+  "duration_seconds": 4,
+  "scenes": [
+    "ports",
+    "reservoir",
+    "aquaculture",
+    "energy"
+  ],
+  "notes": [
+    "Illustrative scenes, not to scale",
+    "ROV scale adjusted for visual legibility",
+    "Connecting antenna mast added inside animation only",
+    "Original GLB assets unchanged"
+  ]
+}

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {createHoldCommand,HOLD_MS} from '../../dist/hold-command.mjs';
+let command='deploy',actions=[],progress=0;
+const hold=createHoldCommand({getCommand:()=>command,onFire:c=>actions.push(c),onProgress:p=>progress=p});
+let checks=0;const check=(name,fn)=>{fn();console.log('PASS '+name);checks++;};
+check('short press and early release never deploy',()=>{hold.press('key',0);hold.tick(1499);assert.equal(actions.length,0);assert(progress<1);hold.release('key');hold.tick(2000);assert.equal(actions.length,0);assert.equal(progress,0);});
+check('one full hold fires once, even across stage changes and repeated presses',()=>{hold.press('key',2000);hold.tick(2000+HOLD_MS);assert.deepEqual(actions,['deploy']);command='recover';hold.press('key',3600);hold.tick(8000);assert.deepEqual(actions,['deploy']);hold.release('key');hold.press('key',9000);hold.tick(10500);assert.deepEqual(actions,['deploy','recover']);hold.release('key');});
+check('loss of eligibility cannot resume without a fresh press',()=>{hold.press('key',11000);hold.tick(11500);command=null;hold.tick(12000);command='deploy';hold.tick(15000);assert.equal(actions.length,2);hold.release('key');});
+check('changing command midway requires a new complete hold',()=>{command='deploy';hold.press('key',16000);hold.tick(16500);command='recover';hold.tick(18000);assert.equal(actions.length,2);hold.release('key');});
+check('stop cancellation and blur reset do not dispatch stale commands',()=>{hold.press('key',19000);hold.tick(19500);hold.cancel();hold.tick(22000);assert.equal(actions.length,2);hold.reset();assert(!hold.held);assert.equal(progress,0);});
+check('pointer and keyboard presses cannot combine or release each other',()=>{command='deploy';hold.press('pointer',23000);hold.press('key',23500);hold.release('key');assert(hold.held);hold.tick(24500);assert.equal(actions.length,3);hold.release('pointer');assert(!hold.held);});
+check('pressing while ineligible does not later auto-start',()=>{command=null;hold.press('key',26000);command='deploy';hold.tick(28000);assert.equal(actions.length,3);hold.release('key');});
+console.log(`${checks} long-press checks passed`);

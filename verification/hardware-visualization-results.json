@@ -1,0 +1,13 @@
+{
+  "revision": "Z",
+  "checks": {
+    "sensing_geometry": 8,
+    "actual_glb_framing": 13,
+    "equipment_regression": 18,
+    "lesson_mock_dom_groups": 11
+  },
+  "passed": true,
+  "browser_verified": false,
+  "live_hardware_connected": false,
+  "note": "Geometry, projection and mocked DOM logic checks only. Browser/WebGL rendering unavailable. Lesson mock checks were run by the UI author; no browser was used."
+}

@@ -1,0 +1,677 @@
+{
+  "checks": [
+    {
+      "name": "Opens new magnetic assembly",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 0",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 200",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 335",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 345",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 355",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 370",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 400",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 520",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 650",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 745",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 775",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 785",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 795",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 820",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 840",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 855",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 900",
+      "passed": true
+    },
+    {
+      "name": "D ring alignment 1000",
+      "passed": true
+    },
+    {
+      "name": "Pins retain through post-lock OFF pulse",
+      "passed": true
+    },
+    {
+      "name": "Raised and lifting use mechanical retention",
+      "passed": true
+    },
+    {
+      "name": "Magnet verified OFF before pins retract",
+      "passed": true
+    },
+    {
+      "name": "ROV separates below guide pins",
+      "passed": true
+    },
+    {
+      "name": "Return contact before ON pulse",
+      "passed": true
+    },
+    {
+      "name": "ON pulse precedes mechanical locking",
+      "passed": true
+    },
+    {
+      "name": "Coil zero holding power only",
+      "passed": true
+    },
+    {
+      "name": "Missing evidence inhibits release",
+      "passed": true
+    },
+    {
+      "name": "Unknown magnet inhibits release",
+      "passed": true
+    },
+    {
+      "name": "Example pulse energy arithmetic",
+      "passed": true
+    },
+    {
+      "name": "Visible tether in mechanism view",
+      "passed": true
+    },
+    {
+      "name": "D mass updated for head and yoke",
+      "passed": true
+    },
+    {
+      "name": "Unknown magnetic state blocks release",
+      "passed": true
+    },
+    {
+      "name": "Explicit rearm required",
+      "passed": true
+    },
+    {
+      "name": "Missing pin blocks lift",
+      "passed": true
+    },
+    {
+      "name": "Current demo advances and corrects relative pose",
+      "passed": true
+    },
+    {
+      "name": "Magnet remains OFF during open approach",
+      "passed": true
+    },
+    {
+      "name": "High current pauses demonstration",
+      "passed": true
+    },
+    {
+      "name": "HOLD cannot be resumed blindly",
+      "passed": true
+    },
+    {
+      "name": "Failed load transfer holds before magnet OFF",
+      "passed": true
+    },
+    {
+      "name": "Stale pose stops an already ongoing lift",
+      "passed": true
+    },
+    {
+      "name": "A retained",
+      "passed": true
+    },
+    {
+      "name": "B retained",
+      "passed": true
+    },
+    {
+      "name": "C retained",
+      "passed": true
+    },
+    {
+      "name": "D retained",
+      "passed": true
+    },
+    {
+      "name": "Mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "No uncaught errors",
+      "passed": true
+    }
+  ],
+  "poses": [
+    {
+      "progress": 0,
+      "phase": "Raised · wet yoke",
+      "magnetOn": false,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Hold / monitor",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        0.10599999999999998,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        0.10599999999999998,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 200,
+      "phase": "Lower · pins locked",
+      "magnetOn": false,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Pay out / allow slack",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.06120000000000003,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.06120000000000009,
+        0
+      ],
+      "assembledGapM": 5.55750632853132e-17,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 335,
+      "phase": "Confirm submerged & supported",
+      "magnetOn": false,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Pay out / allow slack",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 345,
+      "phase": "Confirm magnet OFF",
+      "magnetOn": false,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Pay out / allow slack",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 355,
+      "phase": "Verify magnet released",
+      "magnetOn": false,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Pay out / allow slack",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 370,
+      "phase": "Retract locking pins",
+      "magnetOn": false,
+      "pinsClosed": false,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Pay out / allow slack",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 400,
+      "phase": "Separate below head",
+      "magnetOn": false,
+      "pinsClosed": false,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": false,
+      "out": 0,
+      "gap": 0.07000000000000006,
+      "tether": "Pay out / allow slack",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 520,
+      "phase": "Mission · guide tether",
+      "magnetOn": false,
+      "pinsClosed": false,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": false,
+      "out": 1,
+      "gap": 0.14,
+      "tether": "Hold / monitor",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 650,
+      "phase": "Return below head",
+      "magnetOn": false,
+      "pinsClosed": false,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": false,
+      "out": 0.5833333333333329,
+      "gap": 0.14,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 745,
+      "phase": "Rise into guides",
+      "magnetOn": false,
+      "pinsClosed": false,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": false,
+      "out": 0,
+      "gap": 0.06999999999999995,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 775,
+      "phase": "Confirm contact",
+      "magnetOn": false,
+      "pinsClosed": false,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 785,
+      "phase": "Pulse ON · seat target",
+      "magnetOn": true,
+      "pinsClosed": false,
+      "offPulse": false,
+      "onPulse": true,
+      "pulsing": true,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 795,
+      "phase": "Verify magnetic state",
+      "magnetOn": true,
+      "pinsClosed": false,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 820,
+      "phase": "Check load transfer · no slip",
+      "magnetOn": true,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 840,
+      "phase": "Pulse OFF · mechanical retention",
+      "magnetOn": true,
+      "pinsClosed": true,
+      "offPulse": true,
+      "onPulse": false,
+      "pulsing": true,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 855,
+      "phase": "Recheck pins & seat · magnet OFF",
+      "magnetOn": false,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 900,
+      "phase": "Lift · mechanical retention",
+      "magnetOn": false,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Take up slack only",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        -0.17266666666666652,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.17266666666666647,
+        0
+      ],
+      "assembledGapM": 5.55750632853132e-17,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 1000,
+      "phase": "Raised · wet yoke",
+      "magnetOn": false,
+      "pinsClosed": true,
+      "offPulse": false,
+      "onPulse": false,
+      "pulsing": false,
+      "contact": true,
+      "out": 0,
+      "gap": 0,
+      "tether": "Hold / monitor",
+      "idleCoilWatts": 0,
+      "ringUnderside": [
+        -0.012,
+        0.10599999999999998,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        0.10599999999999998,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    }
+  ],
+  "errors": []
+}

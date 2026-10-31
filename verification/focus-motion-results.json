@@ -1,0 +1,57 @@
+{
+  "revision": "AC",
+  "checks": 12,
+  "passed": 12,
+  "scope": "Mock-DOM lazy GIF loading, exclusive previews, touch and keyboard access, reduced motion, environmental pause gates, cleanup.",
+  "browserPreview": "Not run: control-browser unavailable",
+  "results": [
+    {
+      "name": "No GIF is requested before first activation, including after becoming visible",
+      "passed": true
+    },
+    {
+      "name": "Hover activates only one card and repeated state avoids unnecessary image reloads",
+      "passed": true
+    },
+    {
+      "name": "Keyboard focus starts motion, survives movement within card and stops when focus leaves",
+      "passed": true
+    },
+    {
+      "name": "Manual pause remains paused across hover, focus and environmental changes",
+      "passed": true
+    },
+    {
+      "name": "A first touch tap plays despite intervening focus, and the second tap pauses",
+      "passed": true
+    },
+    {
+      "name": "Explicit play continues after hover leaves but yields to another selected card",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion suppresses automatic previews while allowing deliberate play",
+      "passed": true
+    },
+    {
+      "name": "Hidden, offscreen and Studio gates pause all GIFs until every gate permits playback",
+      "passed": true
+    },
+    {
+      "name": "Leaving Overview discards stale automatic hover and keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "Canceled pointer intent cannot alter a later keyboard click",
+      "passed": true
+    },
+    {
+      "name": "Disposal restores posters, removes listeners and disconnects observers",
+      "passed": true
+    },
+    {
+      "name": "Missing optional APIs, absent Overview and incomplete cards are handled safely",
+      "passed": true
+    }
+  ]
+}

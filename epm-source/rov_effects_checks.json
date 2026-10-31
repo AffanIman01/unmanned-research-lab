@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "name": "Original lamps and eight propellers available",
+      "passed": true
+    },
+    {
+      "name": "F turns lamps ON",
+      "passed": true
+    },
+    {
+      "name": "T animates every original propeller",
+      "passed": true
+    },
+    {
+      "name": "T stops every propeller",
+      "passed": true
+    },
+    {
+      "name": "Button turns lamps OFF",
+      "passed": true
+    },
+    {
+      "name": "Button spins propellers",
+      "passed": true
+    },
+    {
+      "name": "Effects stop in exploded view",
+      "passed": true
+    },
+    {
+      "name": "Captured ROV prevents spin",
+      "passed": true
+    },
+    {
+      "name": "Released ROV permits spin",
+      "passed": true
+    },
+    {
+      "name": "Contact stops spin before locking",
+      "passed": true
+    },
+    {
+      "name": "Lights also work in mounted assembly",
+      "passed": true
+    },
+    {
+      "name": "ME120 hides ROV controls",
+      "passed": true
+    },
+    {
+      "name": "Mobile no overflow",
+      "passed": true
+    },
+    {
+      "name": "No uncaught errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

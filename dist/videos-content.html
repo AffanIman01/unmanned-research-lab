@@ -1,0 +1,43 @@
+<div class="vid-shell">
+  <header class="vid-heading">
+    <p>Research in motion</p>
+    <h1>Videos</h1>
+    <span>Concept previews of future applications.</span>
+  </header>
+  <div class="vid-grid">
+    <article class="vid-card">
+      <a class="vid-link" href="./application-motion/ports.mp4" data-video-id="ports" aria-label="Play Ports &amp; infrastructure — 3D concept sample">
+        <div class="vid-thumbnail"><img src="./application-motion/ports-poster.png" alt="3D concept of an ROV inspecting a port structure below a surface vessel" width="720" height="450" loading="lazy"><span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span></div>
+        <p class="vid-meta">3D concept sample <span>Video</span></p>
+        <h2>Ports &amp; infrastructure <span aria-hidden="true">↗</span></h2>
+      </a>
+      <p class="vid-description">Surface and underwater inspection.</p>
+      <div class="vid-tags"><span>Infrastructure</span><span>USV + ROV</span></div>
+    </article>
+    <article class="vid-card">
+      <a class="vid-link" href="./application-motion/reservoir.mp4" data-video-id="reservoir" aria-label="Play Reservoir inspection — 3D concept sample">
+        <div class="vid-thumbnail"><img src="./application-motion/reservoir-poster.png" alt="3D concept of an ROV inspecting a submerged reservoir intake" width="720" height="450" loading="lazy"><span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span></div>
+        <p class="vid-meta">3D concept sample <span>Video</span></p>
+        <h2>Reservoir inspection <span aria-hidden="true">↗</span></h2>
+      </a>
+      <p class="vid-description">A closer view of submerged intakes.</p>
+      <div class="vid-tags"><span>Water systems</span><span>Inspection</span></div>
+    </article>
+    <article class="vid-card">
+      <a class="vid-link" href="./application-motion/aquaculture.mp4" data-video-id="aquaculture" aria-label="Play Aquaculture inspection — 3D concept sample">
+        <div class="vid-thumbnail"><img src="./application-motion/aquaculture-poster.png" alt="3D concept of an ROV checking an aquaculture cage and mooring" width="720" height="450" loading="lazy"><span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span></div>
+        <p class="vid-meta">3D concept sample <span>Video</span></p>
+        <h2>Aquaculture inspection <span aria-hidden="true">↗</span></h2>
+      </a>
+      <p class="vid-description">Visual checks of cages and moorings.</p>
+      <div class="vid-tags"><span>Aquaculture</span><span>Monitoring</span></div>
+    </article>
+  </div>
+  <p class="vid-disclaimer">Illustrative animations · field footage to follow.</p>
+</div>
+<dialog id="sampleVideoDialog" class="vid-dialog" aria-labelledby="sampleVideoTitle" aria-describedby="sampleVideoLabel">
+  <div class="vid-dialog-heading"><div><p id="sampleVideoLabel">3D concept sample</p><h2 id="sampleVideoTitle">Application preview</h2></div><button id="closeSampleVideo" type="button" aria-label="Close video" autofocus>×</button></div>
+  <video id="sampleVideoPlayer" controls playsinline preload="none" aria-label="Concept animation"></video>
+  <div id="sampleVideoError" class="vid-error" hidden><img id="sampleVideoFallbackPoster" alt="Concept preview"><p>Video unavailable. Please try again later.</p></div>
+  <p id="sampleVideoHint" class="vid-playback-hint" role="status" hidden></p>
+</dialog>

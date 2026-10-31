@@ -1,0 +1,227 @@
+{
+  "checks": [
+    {
+      "name": "Opens mount-connected assembly",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 0",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 120",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 230",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 335",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 500",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 780",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 855",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 920",
+      "passed": true
+    },
+    {
+      "name": "Ring-adapter mate remains aligned at 1000",
+      "passed": true
+    },
+    {
+      "name": "Existing mount travels 418mm",
+      "passed": true
+    },
+    {
+      "name": "Moving mass allowance includes mount adapter",
+      "passed": true
+    },
+    {
+      "name": "Capture disagreement blocks lift",
+      "passed": true
+    },
+    {
+      "name": "Explicit rearm remains paused",
+      "passed": true
+    },
+    {
+      "name": "B mechanism available",
+      "passed": true
+    },
+    {
+      "name": "C mechanism available",
+      "passed": true
+    },
+    {
+      "name": "A mechanism available",
+      "passed": true
+    },
+    {
+      "name": "Mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "No uncaught errors",
+      "passed": true
+    }
+  ],
+  "poses": [
+    {
+      "progress": 0,
+      "ringUnderside": [
+        -0.012,
+        0.10599999999999998,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        0.10599999999999998,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 120,
+      "ringUnderside": [
+        -0.012,
+        0.10599999999999998,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        0.10599999999999998,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 230,
+      "ringUnderside": [
+        -0.012,
+        -0.12390000000000004,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.12390000000000007,
+        0
+      ],
+      "assembledGapM": 2.788317998187946e-17,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 335,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 500,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 780,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 855,
+      "ringUnderside": [
+        -0.012,
+        -0.312,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.312,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 920,
+      "ringUnderside": [
+        -0.012,
+        -0.10299999999999981,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        -0.10299999999999981,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    },
+    {
+      "progress": 1000,
+      "ringUnderside": [
+        -0.012,
+        0.10599999999999998,
+        -2.6645352591003758e-18
+      ],
+      "adapterTop": [
+        -0.012,
+        0.10599999999999998,
+        0
+      ],
+      "assembledGapM": 2.6645352591003758e-18,
+      "strokeM": 0.418,
+      "measured": false
+    }
+  ],
+  "errors": []
+}

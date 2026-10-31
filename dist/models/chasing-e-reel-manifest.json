@@ -1,0 +1,112 @@
+{
+  "basis": "Affan photographs, September 20 2026",
+  "dimensionsStatus": "Unverified; casing envelope is provisional, NOT a manufacturer specification",
+  "provisionalCasingMetres": {
+    "width": 0.4,
+    "depth": 0.25,
+    "height": 0.4
+  },
+  "model": {
+    "name": "CHASING E-Reel \u00b7 photo reference \u00b7 provisional scale",
+    "file": "chasing-e-reel-reference.glb",
+    "triangles": 24472,
+    "bytes": 753044,
+    "nodes": {
+      "reel_housing": 860,
+      "reel_handle": 176,
+      "reel_feet": 176,
+      "reel_drum": 768,
+      "reel_tether": 21400,
+      "reel_crank": 496,
+      "reel_controls": 596
+    },
+    "bounds": {
+      "reel_housing": {
+        "min": [
+          -0.20000000298023224,
+          0.0,
+          -0.125
+        ],
+        "max": [
+          0.20000000298023224,
+          0.4000000059604645,
+          0.125
+        ]
+      },
+      "reel_handle": {
+        "min": [
+          -0.1574999988079071,
+          0.3019999861717224,
+          -0.125
+        ],
+        "max": [
+          0.1574999988079071,
+          0.4000000059604645,
+          0.125
+        ]
+      },
+      "reel_feet": {
+        "min": [
+          -0.18850000202655792,
+          0.0,
+          -0.10999999940395355
+        ],
+        "max": [
+          0.18850000202655792,
+          0.012000000104308128,
+          0.10999999940395355
+        ]
+      },
+      "reel_drum": {
+        "min": [
+          -0.14399999380111694,
+          0.01899999938905239,
+          -0.1469999998807907
+        ],
+        "max": [
+          0.14399999380111694,
+          0.31299999356269836,
+          0.1469999998807907
+        ]
+      },
+      "reel_tether": {
+        "min": [
+          -0.1340000033378601,
+          0.022217318415641785,
+          -0.14361689984798431
+        ],
+        "max": [
+          0.1324000060558319,
+          0.3089999854564667,
+          0.14300000667572021
+        ]
+      },
+      "reel_crank": {
+        "min": [
+          -0.28999999165534973,
+          0.19200000166893005,
+          -0.05700000002980232
+        ],
+        "max": [
+          -0.20499999821186066,
+          0.3569999933242798,
+          0.0729999989271164
+        ]
+      },
+      "reel_controls": {
+        "min": [
+          0.20499999821186066,
+          0.06199999898672104,
+          -0.07500000298023224
+        ],
+        "max": [
+          0.21899999678134918,
+          0.21199999749660492,
+          0.07500000298023224
+        ]
+      }
+    }
+  },
+  "mount": "Central aft hatch, photo-derived placement; not fit checked",
+  "integrationDisplayScale": 0.8
+}
