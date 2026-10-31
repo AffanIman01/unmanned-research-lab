@@ -1,0 +1,67 @@
+name: Import studio source
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: studio-source-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and unpack source
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import hashlib, io, json, tarfile
+          root = Path.cwd()
+          manifest_path = root / "studio-import-manifest.json"
+          manifest = json.loads(manifest_path.read_text())
+          parts = []
+          for item in manifest["parts"]:
+              name = item["name"]
+              assert PurePosixPath(name).name == name
+              data = (root / name).read_bytes()
+              assert len(data) == item["size"], name
+              assert hashlib.sha256(data).hexdigest() == item["sha256"], name
+              parts.append(data)
+          data = b"".join(parts)
+          expected_archive = "5a8cd6bff6aa6f1db9e1477c6c6f2ffd610520a56277748a7ccc3fef851672d1"
+          assert hashlib.sha256(data).hexdigest() == expected_archive, "Archive checksum mismatch"
+          expected = manifest["files"]
+          assert len(expected) == 326
+          with tarfile.open(fileobj=io.BytesIO(data), mode="r:gz") as archive:
+              members = archive.getmembers()
+              assert {member.name for member in members} == set(expected)
+              assert len(members) == len(expected)
+              for member in members:
+                  path = PurePosixPath(member.name)
+                  assert member.isfile() and not path.is_absolute()
+                  assert ".." not in path.parts and path.parts[0] not in (".git", ".github")
+                  content = archive.extractfile(member).read()
+                  item = expected[member.name]
+                  assert len(content) == item["size"], member.name
+                  assert hashlib.sha256(content).hexdigest() == item["sha256"], member.name
+                  target = root / member.name
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(content)
+                  target.chmod(0o755 if member.mode & 0o111 else 0o644)
+          for name, item in expected.items():
+              assert hashlib.sha256((root / name).read_bytes()).hexdigest() == item["sha256"], name
+          for item in manifest["parts"]:
+              (root / item["name"]).unlink()
+          manifest_path.unlink()
+          print(f"Verified and imported {len(expected)} files from Sites commit {manifest['source_commit']}.")
+          PY
+      - name: Commit complete studio
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit -m "Import complete Unmanned Research Lab studio and simulation"
+          git push origin HEAD:main
