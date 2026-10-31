@@ -1,0 +1,1372 @@
+{
+  "source_commit": "0de6f6d6639d8cb8d3648e584265de36caf25149",
+  "files": {
+    ".gitignore": {
+      "sha256": "018014898153cb3ab6f3ad79b5ed49d08c3a02b1fa3f019a36957d6d034dc5d2",
+      "size": 78
+    },
+    "PROJECT_HISTORY.md": {
+      "sha256": "f709be206162c7f072643f182826d4c9a5a989dcd948678fb4935f18c215336e",
+      "size": 43836
+    },
+    "README.md": {
+      "sha256": "e156b9f146a054b028b24c5a983b32404b2705fc66dc1699bf8dd2ffd6d191bf",
+      "size": 1736
+    },
+    "dist/accessory-data.mjs": {
+      "sha256": "ca2a4d3bedc5c62a49933b0abb2bc957211be6877e5724020e550b1fcec1a3bd",
+      "size": 9624
+    },
+    "dist/accessory-display.mjs": {
+      "sha256": "1134c7dc0b06257175fbc2cd01cd14455db8585e0d0fd8416bac61ad597c6674",
+      "size": 17141
+    },
+    "dist/accessory-showroom.css": {
+      "sha256": "25f2f358018ab4e08e4933c7c6d8e8342f76130227d9ff101b32fb243dcd6269",
+      "size": 1842
+    },
+    "dist/accessory-showroom.mjs": {
+      "sha256": "ca0581f653ac92eca25bc33e097cfb68bb3950c7ba2205d494c6ea62fd03da1e",
+      "size": 6001
+    },
+    "dist/app.js": {
+      "sha256": "43f00afc408fc6bbd06bd10df29d9d647cd7695848613d25e182f6662b55fb43",
+      "size": 35047
+    },
+    "dist/application-motion/README.md": {
+      "sha256": "3f0ac750e7e4bd6369231b8f87270962ab0700229f85e2ff8f64161f7c7d973a",
+      "size": 1864
+    },
+    "dist/application-motion/__pycache__/generate.cpython-312.pyc": {
+      "sha256": "8c56fd94a88be37e5cd77e0c07656d038f078f1cda19e76ef56082f308e1a301",
+      "size": 28676
+    },
+    "dist/application-motion/aquaculture-poster.png": {
+      "sha256": "405fd6442baf2be5fd2406cad916dfaaf92c24cdc5311acdd9fed728f0bd9a35",
+      "size": 110132
+    },
+    "dist/application-motion/aquaculture.gif": {
+      "sha256": "4ace8f4f90c1dc47181ebba427d17646e76799cd04d7b35015c9c75348a41b72",
+      "size": 1669583
+    },
+    "dist/application-motion/aquaculture.mp4": {
+      "sha256": "6be6744297f3820a9003c24b3e5185dc62aef774c4684846c1b4fddb0c43c8c8",
+      "size": 100778
+    },
+    "dist/application-motion/contact-sheet.jpg": {
+      "sha256": "2296e214b992ecf63374c9d2c96aa48b260fab9eb1937df7b1fce474e09f6ff3",
+      "size": 124072
+    },
+    "dist/application-motion/energy-poster.png": {
+      "sha256": "9f23828c851d54810099424476f472df527430bd25fb583e43c726c477cdf0d3",
+      "size": 88592
+    },
+    "dist/application-motion/energy.gif": {
+      "sha256": "f1ea5d69049d35aaa9e89e3d331b11655d48f0b493a219fca91597fc4ce26551",
+      "size": 1389184
+    },
+    "dist/application-motion/energy.mp4": {
+      "sha256": "b1158515e7183516a456f3cc6059a2f52bf3ad6c2f017dadca1b07cb6aef844f",
+      "size": 93344
+    },
+    "dist/application-motion/generate.py": {
+      "sha256": "4cb10242f9abb879bcdb64b08a52740d06d0cd9f6ec561c56d168e7de34254d9",
+      "size": 10830
+    },
+    "dist/application-motion/ports-poster.png": {
+      "sha256": "aabb5f01aee28d70f84fe0feb9d9889f10a7b576126a57af8e1c34706a4e0030",
+      "size": 90561
+    },
+    "dist/application-motion/ports.gif": {
+      "sha256": "79d785ac8354a1d327359e0d81762b73a45bee034686aae0b8e23b00dabe0f1a",
+      "size": 1505007
+    },
+    "dist/application-motion/ports.mp4": {
+      "sha256": "3270f95858e938ff940633ea7f84fbf89cdcc824670a6cb9ded5fd8294b8a471",
+      "size": 91985
+    },
+    "dist/application-motion/provenance.json": {
+      "sha256": "e699a733234c572eed0e6f5502fd58ce48360bec13acc7dccc8bdc1c4d4e09e2",
+      "size": 825
+    },
+    "dist/application-motion/reservoir-poster.png": {
+      "sha256": "65c9dce4066b4ee04356de732f4bb599d1b2239ccbde04feb7b8e47f1d347071",
+      "size": 92305
+    },
+    "dist/application-motion/reservoir.gif": {
+      "sha256": "365fb7ed71451a860da96e3690e381d4798309d4b024c965350f714b0652b812",
+      "size": 1443221
+    },
+    "dist/application-motion/reservoir.mp4": {
+      "sha256": "8688c1abe3387abb67c91ddfe1f99e00688b29c4c937fc7820623c9607a8729c",
+      "size": 91636
+    },
+    "dist/application-motion/validation.json": {
+      "sha256": "16484ba22c3791afad6ed89f1cd8f18490429c16182a318853cd944d91e31f51",
+      "size": 2184
+    },
+    "dist/branding/SOURCES.md": {
+      "sha256": "130a1c1f240b4254fb68eaaa83a3006b3e031e1ac8842fa72e5b8f71dd36bd87",
+      "size": 4540
+    },
+    "dist/branding/chasing-logo.png": {
+      "sha256": "69e74bbf451ccec61f7c83fdd3681059c3479e7205c02ed84ed3751e0385b71b",
+      "size": 5202
+    },
+    "dist/branding/harxon-logo.png": {
+      "sha256": "f04b03f11d15f042ea3ef85462493490a71418b3070f7ca86704d5852007f383",
+      "size": 5899
+    },
+    "dist/branding/hikvision-logo-white.png": {
+      "sha256": "b65452592746ca9c8aac9d46bc08a1b29a1da78bd420e58686824472b48fe01d",
+      "size": 21482
+    },
+    "dist/branding/lalizas-logo.png": {
+      "sha256": "2b29dc9c6e5866a9f3d7c9b1d59d6e76647c136536f1afa1e8add82a6cc25bc5",
+      "size": 70838
+    },
+    "dist/branding/nvidia-logo.svg": {
+      "sha256": "0990470094e5ba2c1c1f24a9c22d8d26c9a53e18a2ce6336aef7d5865a9c648f",
+      "size": 2802
+    },
+    "dist/branding/oceanalpha-logo.png": {
+      "sha256": "e461941eae3faaa2e1c34165b6bf53cea0622d7bc72ba4398945001ebcfa5958",
+      "size": 3487
+    },
+    "dist/branding/robosense-logo-header.png": {
+      "sha256": "888a40450560e0a36a021a3f81391ed29cc71136e598d7bf51ae1c5154f2acad",
+      "size": 16789
+    },
+    "dist/branding/see-usm-hd.png": {
+      "sha256": "349ae236563103df695dfe5686a9a62d8fdf1e2fd3249eb05ee8cb3e54fd8cbb",
+      "size": 655317
+    },
+    "dist/branding/starlink-logo-white.png": {
+      "sha256": "09e8e2dccd9e7e1ebc62529dc7620c0d3b060ae29a447b07225aa30818fd59e4",
+      "size": 7829
+    },
+    "dist/branding/stereolabs-logo.svg": {
+      "sha256": "9193bb940d9dbb84a26fe560b82093a19737a5eb93188cd19590611d3cde92c4",
+      "size": 5544
+    },
+    "dist/branding/usm-apex-hd.png": {
+      "sha256": "f9547e40b43303334e70f2e187edb67b100d2fb95eef575036c2a0db6109e491",
+      "size": 154799
+    },
+    "dist/calculations.mjs": {
+      "sha256": "71844d1e55e5e0490dc5e3d1b4254340a030a753ac41410ba3f0dcda6d14efca",
+      "size": 7842
+    },
+    "dist/component-data.mjs": {
+      "sha256": "00d69ab0884325db13c5996f6f88003cea3dc2467fcfcf7e9bd5aa8c7670eac2",
+      "size": 5839
+    },
+    "dist/component-inspector.mjs": {
+      "sha256": "c98678b169fad4eb9b214c3f9b73507bce3736f9e4d7051a3609e57c2e549174",
+      "size": 18030
+    },
+    "dist/docking.mjs": {
+      "sha256": "81ee5157fa50ae183d87771521f4d9cc41ce4017d0b3c34341adea2617db5b32",
+      "size": 4598
+    },
+    "dist/documentation-content.html": {
+      "sha256": "b6fc6c8afa0a8ec37e037967a5f6d78bde236aeec56e4a0a1903a27ab93585b2",
+      "size": 5951
+    },
+    "dist/documentation.css": {
+      "sha256": "7601b64080139c33f9fa51272e8372af6131081cfefe53ba5218cb56405c748c",
+      "size": 4911
+    },
+    "dist/downloads/D_Magnetic_Capture.step": {
+      "sha256": "69af5dab97acd246f3b7cc578c78524d50e315afe01645106b62d599aaae9509",
+      "size": 984701
+    },
+    "dist/downloads/D_Magnetic_Exploded.step": {
+      "sha256": "cfefcb5866929b5c33b6e2ad9f00e509eddf1686580b3a34f46e71d633861437",
+      "size": 984918
+    },
+    "dist/downloads/Engineering_Notes.md": {
+      "sha256": "d857b9cefecb6c459f43f6bd91eb3e07c034cb18801c338f86cd6c3afeb1a036",
+      "size": 1312
+    },
+    "dist/downloads/Flow_Recovery.md": {
+      "sha256": "8300dbc60cbffc8c575d34128b8b38a465ee539f3a3c4fbfb465c905059ccb7e",
+      "size": 6729
+    },
+    "dist/downloads/Magnetic_Concept_Notes.md": {
+      "sha256": "1cdbcad661a8f65ab25834d491bda5072ea81279ce5bef93116519125f9614b3",
+      "size": 3778
+    },
+    "dist/downloads/Magnetic_Design_Notes.md": {
+      "sha256": "80458d6abef48a5bc388aad53105eb1516a48a7db534a9fcb9c2a2f079947b0e",
+      "size": 6236
+    },
+    "dist/downloads/Recovery_Studio_Complete.zip": {
+      "sha256": "a2d7a59f5a4cb707425874150372ac0648c7e01df8a7557d0f6dcf7f9d9be8ca",
+      "size": 24937774
+    },
+    "dist/focus-motion/README.md": {
+      "sha256": "9b2ddc9e1fc2a4a0a69b3968b1372209a24538c39db1a19e8ba541aeef179265",
+      "size": 1261
+    },
+    "dist/focus-motion/contact-sheet.jpg": {
+      "sha256": "68f74879f38f5860b99852038ae310d4e52c440fc3a409a31c3808f0d02e6e04",
+      "size": 76827
+    },
+    "dist/focus-motion/generate.py": {
+      "sha256": "fef4ff1fa7add41e76765f45c35fc3d237447be904b13ff37de1c70e0c90e841",
+      "size": 12386
+    },
+    "dist/focus-motion/perception-poster.png": {
+      "sha256": "38876f948752208be714bd870f4459b6b91f190eaeb9a56e82be9e56095b08f3",
+      "size": 25893
+    },
+    "dist/focus-motion/perception.gif": {
+      "sha256": "5a675c512a125905c7d0cb47d6fc9f0de937a6b3b3731c0630636cc8257695a0",
+      "size": 141452
+    },
+    "dist/focus-motion/recovery-poster.png": {
+      "sha256": "dd0e6dd597876e453d42a5375014c51e0321619fbf04b71257c1834ad83d02e3",
+      "size": 19834
+    },
+    "dist/focus-motion/recovery.gif": {
+      "sha256": "6baa7425eb96637a8f1dc52335cce807e28f473d8095db84a8c0948651a2f940",
+      "size": 165304
+    },
+    "dist/focus-motion/teleoperation-poster.png": {
+      "sha256": "e8315038dd8b5195a74e7391ff8b94db92937f34c2ae8c3a22c1aa303051183d",
+      "size": 27816
+    },
+    "dist/focus-motion/teleoperation.gif": {
+      "sha256": "c78dfa64336fe2efc02a829b823f9a2bf0b26407a2a4fd2ba612641224fd0abd",
+      "size": 96250
+    },
+    "dist/focus-motion/validation-poster.png": {
+      "sha256": "a6c976ba4f43017c1c3386a07900ae890f8b7af07d34e60bbb17a99a66f3d7cb",
+      "size": 27332
+    },
+    "dist/focus-motion/validation.gif": {
+      "sha256": "4602b696e78fa3d0c5cf207dca5b3040da7d73829a9c100c0460f44f26da5f76",
+      "size": 162302
+    },
+    "dist/focus-motion.mjs": {
+      "sha256": "730e618be4ffb700483cde15323416caad07ae007376370cfd52eeced756e339",
+      "size": 4362
+    },
+    "dist/free-camera.mjs": {
+      "sha256": "320d772f6eeb993f5e5fc44522e9bc1abae4139e2c4b9083c9af856ddb19f1b5",
+      "size": 3334
+    },
+    "dist/hardware-lesson.css": {
+      "sha256": "9ed14dda0e594377d824511b4a0b3db21a7f5c65a2cd9b27174bb94d098a1345",
+      "size": 10202
+    },
+    "dist/hardware-lesson.mjs": {
+      "sha256": "974615abedece9245a1451df310ac54476b413d754570f1fb917989852079db7",
+      "size": 11913
+    },
+    "dist/hold-command.mjs": {
+      "sha256": "af5f5a1a306a94be360e88a864f289b5abe0d0c515b6138d13171e899d9878c9",
+      "size": 2854
+    },
+    "dist/index.html": {
+      "sha256": "a680b377de6a80dfe13c4af1aaf084ed98871634dccd1d31ed5b7f6aff5aeb8c",
+      "size": 54630
+    },
+    "dist/inspection-framing.mjs": {
+      "sha256": "613b6e9c964804ae86030f2df6b7fa7b9c9bbfc800bec00bc258d4e4407a7dc4",
+      "size": 1381
+    },
+    "dist/lift.mjs": {
+      "sha256": "5c302ad42dd1aa428c4174f072b480b68ef25ed5ea4ce6eeac286c915947b764",
+      "size": 351
+    },
+    "dist/link-flow.css": {
+      "sha256": "21e374e59ca445f0480190f6069c63811fbf658b0791bdb13c311cdfbb0b233f",
+      "size": 4930
+    },
+    "dist/link-flow.mjs": {
+      "sha256": "0ce0401ecbc026ace3e818a010e5dcc26ff44dd88998e6fec3fed868fb830b4d",
+      "size": 12271
+    },
+    "dist/m2-training-data.mjs": {
+      "sha256": "8cb9821c5656944ecd573c0d5e49662d0d50f4f180e4bbcd298e8ab8a1cde0a2",
+      "size": 11937
+    },
+    "dist/m2-training.css": {
+      "sha256": "9c7ff51dcbf17877dfa33af7a477edb91ed0e5188fb38a1c3f344cc25ca3f1ba",
+      "size": 3083
+    },
+    "dist/m2-training.mjs": {
+      "sha256": "984cbe51219cdd728fecdbb4790afaf04ffa1f31cd287f2b16e8826a92078c5a",
+      "size": 5146
+    },
+    "dist/magnetic.mjs": {
+      "sha256": "dadc9bd2423c04df68aac9bcbb62af55a3e22afdac07ef4ef0159bf463b8d7c6",
+      "size": 2207
+    },
+    "dist/model-framing.mjs": {
+      "sha256": "f049348c60796f391add7f0c3c0928714a19418fa4b00cf941aa0ead32344604",
+      "size": 2634
+    },
+    "dist/models/chasing-e-reel-manifest.json": {
+      "sha256": "5cd5a969d9f307e8cc080bd899f981d6259b3a5cdccfb2c6e6182261cae53286",
+      "size": 2574
+    },
+    "dist/models/chasing-e-reel-reference.glb": {
+      "sha256": "42108a7529ed0696b6fcc29138033dc8727fdb24781158f4486fe7e85cfdbfc6",
+      "size": 753044
+    },
+    "dist/models/chasing-m2-pro-max-manifest.json": {
+      "sha256": "063e9fdbde4afcbbbbb1c61596402f5c6bcf65cf22c659ed65140adf1d114f22",
+      "size": 5652
+    },
+    "dist/models/chasing-m2-pro-max-reference.glb": {
+      "sha256": "204ab95dd18d7d50c4b73ebb80fb72b06b83665171357bdcba4366dd46ddfb9d",
+      "size": 1531404
+    },
+    "dist/models/compute-enclosure-concept.glb": {
+      "sha256": "1c3b6bfbf12b9488e9d9101c0b6b2c74ed9c11695cd30a899033276f627690d5",
+      "size": 44384
+    },
+    "dist/models/me120-reference.glb": {
+      "sha256": "6127c9dd0ce3e91ed45fd00d641bd18cd0a82636744dfacccf005cc7e957f8bf",
+      "size": 1671084
+    },
+    "dist/models/model-manifest.json": {
+      "sha256": "04a2211b0b22786ca6de1991388490b56ee9dafb86fd0bfab6d5a7f1798083c9",
+      "size": 3681
+    },
+    "dist/models/provenance.json": {
+      "sha256": "af8e8fb1c3a672a355f8930c2eaaca59123858593ceeffe001cd5ac4cc44c055",
+      "size": 877
+    },
+    "dist/models/starlink-mini-concept.glb": {
+      "sha256": "811419b434fc2fda6fda6c384f4fae0041d41df42ed39bf748d68b8703f78bb6",
+      "size": 20472
+    },
+    "dist/models/user-mount-reference.png": {
+      "sha256": "bf7df595ae2914a0b0fd84e5420ee0736f50b50b60b6a9805175704a551a861e",
+      "size": 31753
+    },
+    "dist/overview-concept/README.md": {
+      "sha256": "2a40399bb001faa313668f35dfb3a5e2f7d214f2ef6afc3f89f196434bf38afc",
+      "size": 917
+    },
+    "dist/overview-concept/concept.gif": {
+      "sha256": "deff4477336a37e8d39cc6dff3e9f86c32ace1377220fc9bc0b0834b836149ab",
+      "size": 559158
+    },
+    "dist/overview-concept/contact-sheet.jpg": {
+      "sha256": "76095723020915d27231353bc1a4f07588707acefe9a27d37f01e63c04ab74ad",
+      "size": 68002
+    },
+    "dist/overview-concept/generate.py": {
+      "sha256": "d4c06fa3d2c1ef4344095e650b8c9bf691cce15cfc5a1f27f9df5bc9b95ff89e",
+      "size": 9126
+    },
+    "dist/overview-concept/poster.png": {
+      "sha256": "f975b86ed6105c89509bcba10fceca8f3ab329afe4a717793e9b1173dfafe92c",
+      "size": 47772
+    },
+    "dist/overview-content.html": {
+      "sha256": "3babf215e4bb827e12a985a779498fa7f5504f01f22386e216d30a61d988a2f8",
+      "size": 17867
+    },
+    "dist/overview.css": {
+      "sha256": "ab6e60464fabd0044d95bd59acdbe60da42de4acc359f1daf8e27567342483b6",
+      "size": 34761
+    },
+    "dist/overview.mjs": {
+      "sha256": "26bbe757d421756db86c64fb6e7354468ea92ec2164da62d1eddc3d6b8bcfadb",
+      "size": 7766
+    },
+    "dist/radar-demo.mjs": {
+      "sha256": "040d1e83b1d84bd331c374e33b189530478251a7e965d2eeba5bce21e76aec88",
+      "size": 9680
+    },
+    "dist/radar-principle.mjs": {
+      "sha256": "186a043ef25d8b8509160edff61d7f6b88e1f2af7073f39d1cdaea028931aa69",
+      "size": 832
+    },
+    "dist/rc3-model.mjs": {
+      "sha256": "b1fd1afe228a8be75fcfeba16b01f0c2200f3070c300ab9b9b94ee70f4421cb0",
+      "size": 7646
+    },
+    "dist/readiness-spectrum.mjs": {
+      "sha256": "88268780eb3296a953d4c8fea678ac2b3e8f9922e3b104d89f5b303dbe1fb8a6",
+      "size": 1756
+    },
+    "dist/readiness.mjs": {
+      "sha256": "4760d863df4acbe51266e1b9686acc8fdb526e96bc9619b0bd7e614652fecaad",
+      "size": 4348
+    },
+    "dist/research-background.css": {
+      "sha256": "23e6359864f05ac15cd6a91a7ce5ce622feed067a65f207e2abad95ec7c24a3a",
+      "size": 1485
+    },
+    "dist/research-background.mjs": {
+      "sha256": "77b9f8f1869e22d2970dd378d00597e317bab50694b1b4449b4a22a2f5728ee8",
+      "size": 488
+    },
+    "dist/rov-accessories.mjs": {
+      "sha256": "2e9cd9975ee8e5842f97c16655aa26287251b112e3f057be069b342d983bffd5",
+      "size": 5447
+    },
+    "dist/rov-accessory-data.mjs": {
+      "sha256": "45f57a9ad791bf87a60c331bfe984968462c296380891b31e74f20dac6121ab3",
+      "size": 6916
+    },
+    "dist/rov-accessory-panel.mjs": {
+      "sha256": "e90e726f149728ebff6c5fbb2ed61071a9604265f320a7fbc9b36310f00695d7",
+      "size": 3050
+    },
+    "dist/rov-anatomy.mjs": {
+      "sha256": "62e0f183d4591fdfeb01a74b28b49f2d31af906163a85e437107238af088ec2c",
+      "size": 10859
+    },
+    "dist/rov-camera.mjs": {
+      "sha256": "11ec0b6033ff22ee250963af0cda1230a332676023c8b1d8c865f6f219d535fc",
+      "size": 1091
+    },
+    "dist/rov-effects.mjs": {
+      "sha256": "ca7bbea41d34896db31316e819ad05b79ed9b3c4d55a7525e9e0bcc90277f69d",
+      "size": 3999
+    },
+    "dist/rov-level.mjs": {
+      "sha256": "16bcaf366ad2f469357b385e2e232d6f6752194c386f8d30d5d9d1eaf3d0686d",
+      "size": 398
+    },
+    "dist/rov-simulator/controls.mjs": {
+      "sha256": "e31f768e35432f0beafe0ead9a671f9080dbb787648f87d10840c00a0b058cc6",
+      "size": 788
+    },
+    "dist/rov-simulator/index.html": {
+      "sha256": "855c45f24a78af5b1add609f42c5ed30b8f84f468bfd6d28113d1f0bec62a037",
+      "size": 11308
+    },
+    "dist/rov-simulator/physics.mjs": {
+      "sha256": "46bb3bcacda393d896ed35c9e9b5bc626080ec4400e5682a5401923f17e66944",
+      "size": 2460
+    },
+    "dist/rov-simulator/rov.css": {
+      "sha256": "a98e0ddb0c422cdcdf974fddb7cad011e8c4cf797a4071d889428d3d6154b1e0",
+      "size": 9859
+    },
+    "dist/rov-simulator/rov.js": {
+      "sha256": "0dd3d12cda7b28a0962f320c4ccc66a5bf726edfc20df403ac5b3a2068eaf41c",
+      "size": 13259
+    },
+    "dist/rov-simulator/tank.mjs": {
+      "sha256": "f60ed44968f8cbdadf8401e7106b70e5462c8745703b0caf7a2a9547c77108e4",
+      "size": 10034
+    },
+    "dist/rov-wave-field.mjs": {
+      "sha256": "74da50216ccfcef29865abb75d9d1be97845c04207abba5f110bae6a1d2bd75f",
+      "size": 1542
+    },
+    "dist/scene.js": {
+      "sha256": "255aee6f8abf6866d116edb58fef7f7daa8dc7ec7c06c5c0ae1c06fc88d1d9ac",
+      "size": 37120
+    },
+    "dist/sensing-visuals.mjs": {
+      "sha256": "44c25768afbd50f33b7c756fc76ae80bb6926f708b11f69ef495b56a34f7eeff",
+      "size": 14590
+    },
+    "dist/sensor-data.mjs": {
+      "sha256": "197b0adcdf2074631f0efcaa65301985c029a137f258150b14c1baab50bdbf95",
+      "size": 2317
+    },
+    "dist/sensor-rack.mjs": {
+      "sha256": "c9bd38aaf2d75b956e5deb5c259eb1858e74b9d2e8a665e6a08a102d1ca04725",
+      "size": 11928
+    },
+    "dist/simulation-panel.mjs": {
+      "sha256": "dd1bb6f180db4113f35bb2b090fb3ca9bcf87e53c5fdb99cbeee84eb60d77c7b",
+      "size": 4039
+    },
+    "dist/simulation.css": {
+      "sha256": "fcb87ff4d8395bea6885603e6f1ab86f9122c0a7ad545aaf656b8e03b618e367",
+      "size": 2936
+    },
+    "dist/sonar-display.mjs": {
+      "sha256": "b0446b42523844d4b8c0fc28d48fec025965f2835e42a250500063ffa46fbfe5",
+      "size": 1759
+    },
+    "dist/style.css": {
+      "sha256": "fcd8ef1b009f80eb204e4953f82b280f7b6ac2ce01197261bf0dc5da4b7bb296",
+      "size": 38372
+    },
+    "dist/supervisor.mjs": {
+      "sha256": "86eb6a2971ccc86b342cbad1ad47f2d83bbefd12ba145cb851482032e7106269",
+      "size": 10944
+    },
+    "dist/team/PROVENANCE.md": {
+      "sha256": "89f66fc899a7897295083e6daf3dc4edafea433cd0e7367affaf82f07ba8e238",
+      "size": 2351
+    },
+    "dist/team/affan.png": {
+      "sha256": "0bc1253d6eddb35818adc4195756231e3d4657f7df988b57eadab4f4fe62a380",
+      "size": 2565834
+    },
+    "dist/team/ishtiak-ahmed.png": {
+      "sha256": "bed6478d713260d0f89e12264922c36ad6db8a75c67efb3a98cbdceb5d854e4b",
+      "size": 129183
+    },
+    "dist/team/mechanical-sample.png": {
+      "sha256": "7c2722566f7613a4c07dfa4104219c9c639088ce7c2d945b8599d2f49d53a084",
+      "size": 2070058
+    },
+    "dist/team/syaqur-sample.jpg": {
+      "sha256": "95da74b3f64cfaef9b598fff7d667597d883518d135765e9abc782eff9edcbc0",
+      "size": 38066
+    },
+    "dist/team/wan-yusof-rahiman.webp": {
+      "sha256": "983b1cf59e4add10af764a7fa6ecf216d3db6df2d559b2f4cad1678de91973b2",
+      "size": 1244182
+    },
+    "dist/training/m2-pro-max/CHASING_M2_PRO_MAX_Training.pdf": {
+      "sha256": "9f4afe15e5a9e7e7b4f179675bd4d9c17960088faf7367ba5d82fc46e1c3a609",
+      "size": 2061136
+    },
+    "dist/training/m2-pro-max/slide-01.webp": {
+      "sha256": "a8b63edea3609f19ade88b80f05c7a92fca9cb587389ac8b1231f72d5e9b14c4",
+      "size": 67064
+    },
+    "dist/training/m2-pro-max/slide-02.webp": {
+      "sha256": "e32d8bbb6f89e88b1b1b5b91ca197a0540495bd133e9091dc7b407ce8604b5a8",
+      "size": 32728
+    },
+    "dist/training/m2-pro-max/slide-03.webp": {
+      "sha256": "ac0be588426cce1387bada6046efaf7c61ef975e94a62a928190af8041269ff5",
+      "size": 17546
+    },
+    "dist/training/m2-pro-max/slide-04.webp": {
+      "sha256": "f4285aad80718166cf8c1e755dbfd1c5b6894ebc388a594daed94b46a791f0f6",
+      "size": 86290
+    },
+    "dist/training/m2-pro-max/slide-05.webp": {
+      "sha256": "5e40629c548f7ced7db0a779d36e0c6febb6f0defd79bac0cc551c2924787313",
+      "size": 93446
+    },
+    "dist/training/m2-pro-max/slide-06.webp": {
+      "sha256": "fb18c5116d0f59629db89e34345a72c49587ab7dcc4f0d2f2456d3100ecc6868",
+      "size": 80516
+    },
+    "dist/training/m2-pro-max/slide-07.webp": {
+      "sha256": "d165206aa88f6c4add4ba734558e79fc63a156c7ea6f67c44c72b821231f1799",
+      "size": 101672
+    },
+    "dist/training/m2-pro-max/slide-08.webp": {
+      "sha256": "641979e55a036aec98880968194bd2394e0e6f90bba7b321811529341a6eb663",
+      "size": 81988
+    },
+    "dist/training/m2-pro-max/slide-09.webp": {
+      "sha256": "ce5cb54654fb8ed4d662c64f9c6bd2e5d79c2cd184e6fd4d0203268f03c63521",
+      "size": 72648
+    },
+    "dist/training/m2-pro-max/slide-10.webp": {
+      "sha256": "8d707527fe782b3d3004c4a54938512588ea628e14dcbf450140d12c71ded9b5",
+      "size": 85068
+    },
+    "dist/training/m2-pro-max/slide-11.webp": {
+      "sha256": "1ff3101d32c810f943a4e43cb077430d6b951e6017ab0c46a33e5e573884705a",
+      "size": 16748
+    },
+    "dist/training/m2-pro-max/slide-12.webp": {
+      "sha256": "65cf2dcdbd0f333ccd3243cd28a6bf758af3b1ac361fbed5b6f9c45c4f322b45",
+      "size": 73748
+    },
+    "dist/training/m2-pro-max/slide-13.webp": {
+      "sha256": "8ed64069d60fade225d39fe19aa8e86c793128c78e45ff295ac868b7d907768a",
+      "size": 79210
+    },
+    "dist/training/m2-pro-max/slide-14.webp": {
+      "sha256": "83ac426d7d5912e9be21157a9dd1e964c955f8c8d39d945f9e8cc0e09c631f8b",
+      "size": 81712
+    },
+    "dist/training/m2-pro-max/slide-15.webp": {
+      "sha256": "af21fead3b5b481f9fdfb104a4b4d0dfd45799cb578715de8afe39dacc06918f",
+      "size": 85772
+    },
+    "dist/training/m2-pro-max/slide-16.webp": {
+      "sha256": "bbc02e0955134ea1f2302298bccd88575acf08f46f20cff95422dee5d054dfa2",
+      "size": 77406
+    },
+    "dist/training/m2-pro-max/slide-17.webp": {
+      "sha256": "876a626bc7e518b7f9165358669fcd02b444d13e6ec09ad480e46fd17e2f4b99",
+      "size": 61692
+    },
+    "dist/training/m2-pro-max/slide-18.webp": {
+      "sha256": "8f2803facad1444d09cf3dfe39b99cb666ebc9047ae12a1f0c0d2d25ae866159",
+      "size": 87722
+    },
+    "dist/training/m2-pro-max/slide-19.webp": {
+      "sha256": "776ac40616aaf10005aa4770a87f3328e46aa45fddaa032663681c9c74a2cd64",
+      "size": 73170
+    },
+    "dist/training/m2-pro-max/slide-20.webp": {
+      "sha256": "02d9f2c4be8f77220596a35e7afe7d75b0f54d52a25a414d77af8cd19ea71dea",
+      "size": 85118
+    },
+    "dist/training/m2-pro-max/slide-21.webp": {
+      "sha256": "4b397e352f5beeaa84399092b857e0b14453f35f5154aea3f6dbbc47ed4b3379",
+      "size": 62294
+    },
+    "dist/training/m2-pro-max/slide-22.webp": {
+      "sha256": "823bd0edc2c8bde53700585893f1ebd6da33d8654bc552d445ffcb96293ad601",
+      "size": 18422
+    },
+    "dist/training/m2-pro-max/slide-23.webp": {
+      "sha256": "9fb330f68213fb8d38f5327a924ce08f0fdc8f1dad4c2e8545dd63a6ab7a0cc2",
+      "size": 52560
+    },
+    "dist/training/m2-pro-max/slide-24.webp": {
+      "sha256": "6c8cdfcaefff3b143c942cb2d08c25d9c8a17c12d2615cf490cce052d21df474",
+      "size": 52582
+    },
+    "dist/training/m2-pro-max/slide-25.webp": {
+      "sha256": "9c87c63b90577b39afbb08b8b477a6f188b6e783fb96c9dae34eda5e12bb0f4f",
+      "size": 39638
+    },
+    "dist/training/m2-pro-max/slide-26.webp": {
+      "sha256": "102f48cc32789a1a46b3e9da5c9441b57f9341495414aff525a1a8eae4a16ac4",
+      "size": 71318
+    },
+    "dist/training/m2-pro-max/slide-27.webp": {
+      "sha256": "766b65dd9c96840a3c1daf5d0a0fdd6ebe23d74d4710050c5399e0c95f2c0683",
+      "size": 103566
+    },
+    "dist/training/m2-pro-max/slide-28.webp": {
+      "sha256": "0be00459d1572c4a390fef1e5ec088045a8972c6f940fcbe73a530d6f222f0d4",
+      "size": 65454
+    },
+    "dist/training/m2-pro-max/slide-29.webp": {
+      "sha256": "1388e3d7a1e7bc095103b42f19c1853064a8dd1cc8e5da947dc9ed04e0418b1a",
+      "size": 97576
+    },
+    "dist/training/m2-pro-max/slide-30.webp": {
+      "sha256": "3b257898623b783dd1745d0a5b6064b2d6956b8c46a0a4d54667d4a01cdbec53",
+      "size": 77824
+    },
+    "dist/training/m2-pro-max/slide-31.webp": {
+      "sha256": "1861c2c2f9a44d151883aef72dfd3a6ed78bb85395a3d93916ec18cbe90de40a",
+      "size": 70720
+    },
+    "dist/training/m2-pro-max/slide-32.webp": {
+      "sha256": "673fbf92395d400a58aa4ba04ebae102a0c65d5d459c551473f333e7fe0e206c",
+      "size": 58826
+    },
+    "dist/training/m2-pro-max/slide-33.webp": {
+      "sha256": "f727a9f7c5fe0e4753b9e3fbc39c4ec4a9675c2b99fb4c089c5850a80ada66b3",
+      "size": 101528
+    },
+    "dist/training/m2-pro-max/slide-34.webp": {
+      "sha256": "6fc0c131bbabfc6ade671617b48a5901a4310711dbcac6ef843a939c0c1e590e",
+      "size": 63354
+    },
+    "dist/training/m2-pro-max/slide-35.webp": {
+      "sha256": "25c010f43868f462940f4323012d6d14375072050f6acd93f7043c03b0201b46",
+      "size": 23594
+    },
+    "dist/training/m2-pro-max/slide-36.webp": {
+      "sha256": "ae64802327ad3ccf7610382904751224d360121e44c83307390e4d3054d15862",
+      "size": 92980
+    },
+    "dist/training/m2-pro-max/slide-37.webp": {
+      "sha256": "c482a3ff6cb4cc907e0bc143c6a0ed60a64677d948f17201a7e1872fbd4157fb",
+      "size": 115588
+    },
+    "dist/training/m2-pro-max/slide-38.webp": {
+      "sha256": "2fed97e490376f57ff392cf9f16c4cfda0eae13c4c41efb2baee5505905b9c97",
+      "size": 158462
+    },
+    "dist/training/m2-pro-max/slide-39.webp": {
+      "sha256": "7e2d5ed57e3f14ae2c7920343da97835d2a4f8c8fde61bd7ffd04f4c69ca2ef7",
+      "size": 132030
+    },
+    "dist/usv-effects.mjs": {
+      "sha256": "2f15f965ff5a969ca371a4e8e7365f2947f5e4aa569d0d3f2cedd5f46b58678d",
+      "size": 2065
+    },
+    "dist/vehicle-hud.css": {
+      "sha256": "f10854f839d9ec7aa6aec8106d8913e265b0173e3c4fa7cc60e747c1a649bbf6",
+      "size": 3358
+    },
+    "dist/vehicle-hud.mjs": {
+      "sha256": "6df3909de84fe71814db62cc691eb1083c11d4cb6ec16e1a121f8501b40c5ecb",
+      "size": 3291
+    },
+    "dist/vendor/BufferGeometryUtils.js": {
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+      "size": 35539
+    },
+    "dist/vendor/GLTFExporter.js": {
+      "sha256": "e7c29444454eb321b39e4c8b3062944f4fd5299a0e7483e9cb8c0594cdec829f",
+      "size": 86392
+    },
+    "dist/vendor/GLTFLoader.js": {
+      "sha256": "adbbafe8ce40416525b6be0ee5cac0d3782482bcf0122c8ca8ec1ffa77d3440b",
+      "size": 114732
+    },
+    "dist/vendor/LICENSE": {
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "size": 1081
+    },
+    "dist/vendor/OrbitControls.js": {
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+      "size": 38703
+    },
+    "dist/vendor/three.core.js": {
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "size": 1403455
+    },
+    "dist/vendor/three.module.js": {
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "size": 603113
+    },
+    "dist/videos-content.html": {
+      "sha256": "747e2b89912a2424f8355c3f1914ddb189282adc6c2d91732d8396438873574b",
+      "size": 3510
+    },
+    "dist/videos.css": {
+      "sha256": "5a718fc3aace52a735bd0ce06858d5aa9587ede22c885387a160e93860f693d9",
+      "size": 5280
+    },
+    "dist/videos.mjs": {
+      "sha256": "05fb50d5e8292fe95bd8288d22d1ce36b221e94488765c5ea44b1b9f2575025a",
+      "size": 4803
+    },
+    "dist/vision-controls.mjs": {
+      "sha256": "950527c31151c60257a3ab3e5591d842345cab4e6ea10d0fcb0fa1c544a85651",
+      "size": 2089
+    },
+    "dist/vision.mjs": {
+      "sha256": "2949be6caad2f7e223a1f083f8a10a4a20ffb90c6ae7910511171af2188c7c17",
+      "size": 1929
+    },
+    "dist/water-simulation/assets/index-C9TCORzJ.css": {
+      "sha256": "0196de779b2592ad807669f42741711c86eadb3866f4823553a308a02387f5a9",
+      "size": 96607
+    },
+    "dist/water-simulation/assets/index-DiaglBa5.js": {
+      "sha256": "6bcf34803b0f4c1acf9a285c38e979a78e5205f5336303a1dc979ea01687931e",
+      "size": 1147140
+    },
+    "dist/water-simulation/index.html": {
+      "sha256": "e5441731e9528fecd5c6873cd0c71d20f2542a26dde1299eebf0d3b9f3bab5be",
+      "size": 466
+    },
+    "dist/water-simulation/models/chasing-e-reel-reference.glb": {
+      "sha256": "42108a7529ed0696b6fcc29138033dc8727fdb24781158f4486fe7e85cfdbfc6",
+      "size": 753044
+    },
+    "dist/water-simulation/models/chasing-m2-pro-max-reference.glb": {
+      "sha256": "204ab95dd18d7d50c4b73ebb80fb72b06b83665171357bdcba4366dd46ddfb9d",
+      "size": 1531404
+    },
+    "dist/water-simulation/models/compute-enclosure-concept.glb": {
+      "sha256": "1c3b6bfbf12b9488e9d9101c0b6b2c74ed9c11695cd30a899033276f627690d5",
+      "size": 44384
+    },
+    "dist/water-simulation/models/me120-reference.glb": {
+      "sha256": "6127c9dd0ce3e91ed45fd00d641bd18cd0a82636744dfacccf005cc7e957f8bf",
+      "size": 1671084
+    },
+    "dist/water-simulation/models/starlink-mini-concept.glb": {
+      "sha256": "811419b434fc2fda6fda6c384f4fae0041d41df42ed39bf748d68b8703f78bb6",
+      "size": 20472
+    },
+    "epm-source/BOM.csv": {
+      "sha256": "5213a70a822019e5524d71bde24fb9e330276b24a6d27b5672e6fd3b94ba6509",
+      "size": 5743
+    },
+    "epm-source/CAD_Validation.json": {
+      "sha256": "4d4fc5d6f1743d73e977916af87addc3a6c71ed3c88a7743e1e9532c74165d24",
+      "size": 1461
+    },
+    "epm-source/DESIGN_NOTES.md": {
+      "sha256": "80458d6abef48a5bc388aad53105eb1516a48a7db534a9fcb9c2a2f079947b0e",
+      "size": 6236
+    },
+    "epm-source/FLOW_RECOVERY.md": {
+      "sha256": "8300dbc60cbffc8c575d34128b8b38a465ee539f3a3c4fbfb465c905059ccb7e",
+      "size": 6729
+    },
+    "epm-source/ME120_EPM_Lock_Concept.step": {
+      "sha256": "69af5dab97acd246f3b7cc578c78524d50e315afe01645106b62d599aaae9509",
+      "size": 984701
+    },
+    "epm-source/ME120_EPM_Lock_Exploded.step": {
+      "sha256": "cfefcb5866929b5c33b6e2ad9f00e509eddf1686580b3a34f46e71d633861437",
+      "size": 984918
+    },
+    "epm-source/ME120_EPM_Lock_Released.step": {
+      "sha256": "a74b0cc600adfe90e6b4fa16806d3028de97d856487d9356c61dfdd80a6f06d3",
+      "size": 984857
+    },
+    "epm-source/Mount_EPM_Pin_Head.step": {
+      "sha256": "93c3a4be3eb87df84100be2d0c9e7ecca98af196309e6ce6e07a73d9f3220cf2",
+      "size": 286706
+    },
+    "epm-source/README.md": {
+      "sha256": "1cdbcad661a8f65ab25834d491bda5072ea81279ce5bef93116519125f9614b3",
+      "size": 3778
+    },
+    "epm-source/ROV_Removable_Yoke.step": {
+      "sha256": "462e2d672c978f9c2b632444c176a433e3bab4f8f8994bf7304fab3cc51f2332",
+      "size": 422722
+    },
+    "epm-source/Stern_Tether_Fairlead.step": {
+      "sha256": "110b363633904fc8cb60036b77af561cc9e80652a1d3a854099ceb4c2e25f9fc",
+      "size": 234791
+    },
+    "epm-source/browser_checks.json": {
+      "sha256": "3fa25a271dfc24ad50f447e670cc3d9ace294709c302717a383829238a7e5771",
+      "size": 14366
+    },
+    "epm-source/build_epm_mechanism.py": {
+      "sha256": "74720314a6e832a5fb32cffb7d0129ce8bf721537e8b4d4d5f94da3d5f862150",
+      "size": 11807
+    },
+    "epm-source/flow_browser_checks.json": {
+      "sha256": "3fa25a271dfc24ad50f447e670cc3d9ace294709c302717a383829238a7e5771",
+      "size": 14366
+    },
+    "epm-source/flow_test_results.json": {
+      "sha256": "3cfd432814c50df4e47fcf6682b993cef109bcb22726a5ce7d1589c161e8ca4c",
+      "size": 2288
+    },
+    "epm-source/flow_tests.mjs": {
+      "sha256": "89f3014096006b03494e9f572741971d25387b97c389df9e8ff771cbf8456319",
+      "size": 3981
+    },
+    "epm-source/guidance_browser_checks.json": {
+      "sha256": "4a0ceba62a83f3e2bf718ece4dbd86f73df283ded72124b61b56f84a76f85e89",
+      "size": 2000
+    },
+    "epm-source/lift_limit_checks.json": {
+      "sha256": "7df6f665a388a4280d73429c60260894eb4613e3d7986fffaf8fa8cfa030fc28",
+      "size": 1656
+    },
+    "epm-source/parameters.json": {
+      "sha256": "cbe7f65cf2389d861c0b80dbbaa00f99f6468340e44b6ac9683ac62698fe6b1e",
+      "size": 2308
+    },
+    "epm-source/rov_effects_checks.json": {
+      "sha256": "8a8aeb964d0756e5e2be0d090f5a2c09ecbdb0610a8629e435eecb5ab847438c",
+      "size": 1137
+    },
+    "epm-source/usv_effects_checks.json": {
+      "sha256": "1dbb7a32d5f4fcb455f818322d74583680890f547ed200e2edd1be988551adc2",
+      "size": 1478
+    },
+    "epm-source/vision_checks.json": {
+      "sha256": "dcd3d3a0c96d578b90e8d09399ce768acba611add041089ec53f9060ed38d261",
+      "size": 1614
+    },
+    "mount-source/BOM.csv": {
+      "sha256": "b10eba35292d704b2ab988ce898622e13d63ab47c36fe0c19b1eff4094f4f004",
+      "size": 3498
+    },
+    "mount-source/CAD_Validation.json": {
+      "sha256": "541e737c689e9cb18c5ba58404d8d1a74add76f2f5ded7158cb271a31accb00c",
+      "size": 919
+    },
+    "mount-source/ME120_Ring_Adapter_Concept.step": {
+      "sha256": "b42e4660e42c8282ffb1d0e35c763ad9ca7347c0c9c4b71e39187b29da3ced8d",
+      "size": 790017
+    },
+    "mount-source/ME120_Ring_Adapter_Exploded.step": {
+      "sha256": "4bd2ea868b74adb487384bff90a9caf1690883097681f47627f79d376f7d29d6",
+      "size": 790115
+    },
+    "mount-source/Mount_Interface_Blank.step": {
+      "sha256": "0cde48956a664e40b966a5e51cd63f912bdb7bc29df8bc99439615dc4503b879",
+      "size": 97261
+    },
+    "mount-source/README.md": {
+      "sha256": "a9c637514e059b345e384548d80835350d374c8151f69cd578b1249a11f8e516",
+      "size": 2345
+    },
+    "mount-source/ROV_Support_Shoe.step": {
+      "sha256": "08927448b4c7efa7fa65df2c8961a596ddfb1e1d68f3add1e5414b6c85dea91f",
+      "size": 167519
+    },
+    "mount-source/__pycache__/build_mount_adapter.cpython-312.pyc": {
+      "sha256": "f8cc5df9c57fd2c564a4bb7adeeba564b354c5406756f0bc7dd4c7b5ae3fe31b",
+      "size": 13208
+    },
+    "mount-source/browser_checks.json": {
+      "sha256": "8dfe4005c534f0a1ac2b733de9c16691d410cbe0a387fd6de50fc25b2be216e3",
+      "size": 4523
+    },
+    "mount-source/build_mount_adapter.py": {
+      "sha256": "ac3d2a16d8bcf7a6ab891ecf3bbd14b05e9535eab59e1cba8f9f42be04c6b75b",
+      "size": 7871
+    },
+    "mount-source/mount_parameters.json": {
+      "sha256": "b77a45cabe2381e4f88409de4eea37e8a90f9fb04688f5e191b493617d72d10d",
+      "size": 1088
+    },
+    "reference-model-source/__pycache__/build_models.cpython-312.pyc": {
+      "sha256": "32ecc32debbed9b4da2329baa16c9af4e8fa53438b23c8eb7babc85bdab79ef3",
+      "size": 54448
+    },
+    "reference-model-source/build_chasing.py": {
+      "sha256": "9adf17c6d4b37ec93c12f9cfa8985b5d22baf0d828140f0b2070b4bda285a648",
+      "size": 20774
+    },
+    "reference-model-source/build_ereel.py": {
+      "sha256": "0f3937f21617f23366e98788846f1d9b1d0a11ca2d36bb01c29048355a395077",
+      "size": 3304
+    },
+    "reference-model-source/build_models.py": {
+      "sha256": "e787178f69d4368c0685d17756188cf02c9298bf1812cec4c8659d5e82f6fa2e",
+      "size": 27114
+    },
+    "reference-model-source/usv_propeller_ranges.json": {
+      "sha256": "cf92c17aa4826f4e5464ea4aeb1a260abf2155f90d396937801f1464e7fb43a4",
+      "size": 2656
+    },
+    "reference-overview-media/SOURCES.md": {
+      "sha256": "7f758bad7a8e39ce4f79912dffa0d0990177999249c1d014d379ec699257480d",
+      "size": 1836
+    },
+    "reference-overview-media/ground-station.jpg": {
+      "sha256": "d34a5d86f3619ddcb71981bb884883096282c5b8411fb8040ad420075bb76e78",
+      "size": 268119
+    },
+    "reference-overview-media/mechanism-poster.jpg": {
+      "sha256": "c51898ac0b12e5dfe323f860bb22d3677dfbef012f93fadcf059d41a8e068500",
+      "size": 67489
+    },
+    "reference-overview-media/mechanism-preview.mp4": {
+      "sha256": "2dedb308d2526b26ba0acb8824e199c9f54b2d1cbcc63eafa208e7876ce84c26",
+      "size": 286175
+    },
+    "reference-overview-media/rack-front.jpg": {
+      "sha256": "2131b416e4132c44968dea2e9a9f48dfc7f63cdd2c245f51ffcf05c170dff955",
+      "size": 208245
+    },
+    "reference-overview-media/rack-side.jpg": {
+      "sha256": "c0ea7dcc8ce8dce6495acbb0c32b51b971950eff75ea6a89c9229bcf7b6b97f7",
+      "size": 205340
+    },
+    "simulation-source/.gitignore": {
+      "sha256": "4c167e8d479479fcd7f975d306f7db32f9a0ecbaeec355e5deb7475f5c204c1c",
+      "size": 20
+    },
+    "simulation-source/README.md": {
+      "sha256": "489762071866a6212c4298a1d0e93eb39e0292176b065c0417e9b1ef7d1689ad",
+      "size": 4778
+    },
+    "simulation-source/SOURCE-PROVENANCE.json": {
+      "sha256": "a89239690cf43a526daf01cd01968c1b984d23ddbd4ab7f5c96747c672821cf4",
+      "size": 5013
+    },
+    "simulation-source/components/bridge-inspection-panel.tsx": {
+      "sha256": "8e6a583767adf358b95a5f2a745acc73743c94c8e34c6e4996b135213bf6f2a9",
+      "size": 10405
+    },
+    "simulation-source/components/heading-compass.tsx": {
+      "sha256": "d2b3e7f6332f212e4bd6c39ac4586c110eb4b273aaf4138eef1772a967657c93",
+      "size": 884
+    },
+    "simulation-source/components/pool-simulation.tsx": {
+      "sha256": "669e0a932086ada7909942847fce8f2e5c5b2841f53fd28e57dab29dc0cad98a",
+      "size": 71095
+    },
+    "simulation-source/components/rc3-controls.css": {
+      "sha256": "0ac4dfacdd8f130496e026d8edafd19fb43facd19957577f7a7adbadc5038315",
+      "size": 2768
+    },
+    "simulation-source/components/rc3-controls.tsx": {
+      "sha256": "e0bce962668ac446fcbd2d41356b94d344ac6c7813028375ed18b65ae39d8842",
+      "size": 6451
+    },
+    "simulation-source/components/rov-accessory-panel.tsx": {
+      "sha256": "4850e99908838ff6c93e186eea3a3c369c00cd1834f9e39ae2d4319643da64bf",
+      "size": 2535
+    },
+    "simulation-source/components/ui/button.tsx": {
+      "sha256": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4",
+      "size": 2392
+    },
+    "simulation-source/components/ui/select.tsx": {
+      "sha256": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3",
+      "size": 6353
+    },
+    "simulation-source/components/ui/slider.tsx": {
+      "sha256": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3",
+      "size": 1991
+    },
+    "simulation-source/components/ui/textarea.tsx": {
+      "sha256": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979",
+      "size": 759
+    },
+    "simulation-source/components/usv-operations-panel.tsx": {
+      "sha256": "35a13691d188df90fbb167cbdf8bd6fc37119adf7edfd79bcea21273c8ab2268",
+      "size": 5823
+    },
+    "simulation-source/components/vehicle-dashboard.tsx": {
+      "sha256": "ff91d22679a87c0ee53cd841420fb8be28a36e1a3996e03f6bba7e2f48c0418f",
+      "size": 520
+    },
+    "simulation-source/index.html": {
+      "sha256": "577a33f03a1f1e81a579f03b352351fb43ca70a8452a9a57636a9c3e6d2c01d4",
+      "size": 358
+    },
+    "simulation-source/lib/boat-wake.ts": {
+      "sha256": "e06112690a92da3ab6134054cd0c884629d03538183d63cf61051577acb87b72",
+      "size": 10678
+    },
+    "simulation-source/lib/bridge-inspection.ts": {
+      "sha256": "7d24b5e25a88e6421b2c390d1d591a354235a0857591d92d042ab11e85384a8a",
+      "size": 5476
+    },
+    "simulation-source/lib/bridge-scene.ts": {
+      "sha256": "6257baf8ed9dd30ac753291eeebf838ed25a6ea35dbc5db3eddaa68bf96658f1",
+      "size": 6801
+    },
+    "simulation-source/lib/bridge-traffic.ts": {
+      "sha256": "67b8863baeabb775a164570e51faf44b29b09eb7c2b2c9d4456436ef3cd374ec",
+      "size": 5475
+    },
+    "simulation-source/lib/lift-state.ts": {
+      "sha256": "99301755ccf8e16233ea712662ed8625b871f91fc355803a7911e2209ea955c5",
+      "size": 1435
+    },
+    "simulation-source/lib/ocean-water.ts": {
+      "sha256": "ad6e0f46d1c23cca37efba4a205a9e86a8475c2c8e8e14e5c4c0786fdf5484ef",
+      "size": 3135
+    },
+    "simulation-source/lib/pilot-controls.ts": {
+      "sha256": "b594ae9161176b8c5f1b41e1bb4391acc8d0f7814562b3e950309f0607fb55ae",
+      "size": 1273
+    },
+    "simulation-source/lib/pool-motion.ts": {
+      "sha256": "88a2fcb261b0001d9355afdd99bcf9e82344d72b7861a184de59376d24d6749d",
+      "size": 749
+    },
+    "simulation-source/lib/pool-waves.ts": {
+      "sha256": "7f08caeaa55e5fe176a430aae77e45fc0661e440251ce2f0eff1720e3370b925",
+      "size": 4181
+    },
+    "simulation-source/lib/rov-lights.ts": {
+      "sha256": "29836d8de690edb2647cd8298190948f6dd38c611707da36583a6caec947c591",
+      "size": 2356
+    },
+    "simulation-source/lib/rov-motion.ts": {
+      "sha256": "fcab11f59c9eb9f25cf92c56826836b61f8c96536939f039c0b03dcb72e98a33",
+      "size": 4919
+    },
+    "simulation-source/lib/sea-physics.ts": {
+      "sha256": "5359177cb45ee2a0e1519877714b3adbcef24b586801213a061c710aceb589f9",
+      "size": 7043
+    },
+    "simulation-source/lib/studio-me120.ts": {
+      "sha256": "24b3d00f70f4bd7e842fb48e284adafccf13737cab51a8783109b142b6835184",
+      "size": 2745
+    },
+    "simulation-source/lib/usv-avoidance.ts": {
+      "sha256": "123ae6bd7f53b314788600e1ec43bbfb90c898a5433736cabcbb0c5130140b2b",
+      "size": 9386
+    },
+    "simulation-source/lib/usv-camera.ts": {
+      "sha256": "880ade49f32dde99ca28bad67d85d81cb97cfe9b69b8462e683a19a42254bc8f",
+      "size": 815
+    },
+    "simulation-source/lib/usv-ptz.ts": {
+      "sha256": "cd812dd81116ccb74f661daf690ec0338caf2793df9026d922b49f450f756103",
+      "size": 1395
+    },
+    "simulation-source/lib/utils.ts": {
+      "sha256": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68",
+      "size": 177
+    },
+    "simulation-source/main.tsx": {
+      "sha256": "b7b6488597cdef487e1fe56f815b4ad56bb1e1180e0602415a12c96767482670",
+      "size": 891
+    },
+    "simulation-source/package-lock.json": {
+      "sha256": "2281832a9a3fb7f98807c1b6e587294251d9e20ef307b703368525fc405f268e",
+      "size": 121031
+    },
+    "simulation-source/package.json": {
+      "sha256": "4965cbf82cfb2441273c770b9dca9854826bcb62950a0682466a83394ce31623",
+      "size": 946
+    },
+    "simulation-source/postcss.config.mjs": {
+      "sha256": "cc8f514ba7fda07a2e2828670c99e34275f314b350628d8c2ab39e68e50bf9f8",
+      "size": 54
+    },
+    "simulation-source/public/models/chasing-e-reel-reference.glb": {
+      "sha256": "42108a7529ed0696b6fcc29138033dc8727fdb24781158f4486fe7e85cfdbfc6",
+      "size": 753044
+    },
+    "simulation-source/public/models/chasing-m2-pro-max-reference.glb": {
+      "sha256": "204ab95dd18d7d50c4b73ebb80fb72b06b83665171357bdcba4366dd46ddfb9d",
+      "size": 1531404
+    },
+    "simulation-source/public/models/compute-enclosure-concept.glb": {
+      "sha256": "1c3b6bfbf12b9488e9d9101c0b6b2c74ed9c11695cd30a899033276f627690d5",
+      "size": 44384
+    },
+    "simulation-source/public/models/me120-reference.glb": {
+      "sha256": "6127c9dd0ce3e91ed45fd00d641bd18cd0a82636744dfacccf005cc7e957f8bf",
+      "size": 1671084
+    },
+    "simulation-source/public/models/starlink-mini-concept.glb": {
+      "sha256": "811419b434fc2fda6fda6c384f4fae0041d41df42ed39bf748d68b8703f78bb6",
+      "size": 20472
+    },
+    "simulation-source/scripts/check-sea-physics.mjs": {
+      "sha256": "f816abbd8cee20ecbb40b0bc11174afa019e88d450e45d370209d80be8558116",
+      "size": 5013
+    },
+    "simulation-source/scripts/check-studio-me120.mjs": {
+      "sha256": "c8e0b5746fcce0e18417a7b75e4cda413a9136e2e1530abe37bbb476f08916d9",
+      "size": 4225
+    },
+    "simulation-source/scripts/check-wake.mjs": {
+      "sha256": "c2acdd3112f62730c95619537b74cf7b57dc111039154affe04a843408fe4fa1",
+      "size": 5394
+    },
+    "simulation-source/scripts/check-water-surface.mjs": {
+      "sha256": "51d88242a375df830b5be087edb8d6cf1818200961dce2934d18231107919242",
+      "size": 2401
+    },
+    "simulation-source/source-theme.css": {
+      "sha256": "6166aa7d398dd8fd856bfe8a62faf54fb3039de3e8d209b8a7dc2044a0f3fbb5",
+      "size": 55156
+    },
+    "simulation-source/theme.css": {
+      "sha256": "990930b72265f8857a68d59cb26df8ff6f2ed0cd997ca7f2ae24fd030f3d5558",
+      "size": 12297
+    },
+    "simulation-source/vendor/shadcn-tailwind-4.13.0.LICENSE.md": {
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "size": 1063
+    },
+    "simulation-source/vendor/shadcn-tailwind-4.13.0.css": {
+      "sha256": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a",
+      "size": 16041
+    },
+    "simulation-source/vite.config.mjs": {
+      "sha256": "ee2996c3bf1692e4392f3545e8e2b9cdeba5e7718fa6158aa6b2de23eff97e11",
+      "size": 380
+    },
+    "verification/accessory-checks.mjs": {
+      "sha256": "e1b07eda502cf4e65f0731968cf678e78be27a33f12978dd8cf25870c58d50fc",
+      "size": 11797
+    },
+    "verification/accessory-results.json": {
+      "sha256": "6a9ee3af4fce9f25a4883a8f922faab34c36b49602d45d4e7465a507a2f580b0",
+      "size": 11583
+    },
+    "verification/dual-radar-checks.mjs": {
+      "sha256": "8669790fd745289124c0676e9decfe9f01aed94d337d3efa0e5c2439c3f41f10",
+      "size": 7099
+    },
+    "verification/dual-radar-results.json": {
+      "sha256": "9f6435f443f95805474977b3884a2ef51d8ff0df2af4ee3c7b895a731c66d34e",
+      "size": 264
+    },
+    "verification/focus-motion-checks.mjs": {
+      "sha256": "d8b89be8873c7c8831aada6d967923318fe5342d19c1d8a54907cdd41ae1bffb",
+      "size": 10790
+    },
+    "verification/focus-motion-results.json": {
+      "sha256": "908423456d1c947c9fa27daec4fc6127b1e4c66046a805742aeb5cf2c32a9c61",
+      "size": 1801
+    },
+    "verification/hardware-framing-checks.mjs": {
+      "sha256": "bfa2bce34819e792a33db47f2e58294902a23e735b85d222172df8b04939c6b8",
+      "size": 4333
+    },
+    "verification/hardware-visualization-results.json": {
+      "sha256": "bf11d74e601c65901586995abf0c2d6f33f41b4e12ca85a28d9feebd66d7e595",
+      "size": 418
+    },
+    "verification/navigation-video-checks.mjs": {
+      "sha256": "a583abe0f0f8b73e3afb9ce2e68d9482d76292800633d05d0bfc532bce5b1ee1",
+      "size": 14845
+    },
+    "verification/navigation-video-results.json": {
+      "sha256": "3851ae7202020bead4a219dc0f739bee1289fedb21c544f7fb19fc2f85e06bf3",
+      "size": 2523
+    },
+    "verification/overview-checks.mjs": {
+      "sha256": "e86e5cc8d9b1d83d5b2d2112ea92bbb708a92b49406b7559d56fe17479279b10",
+      "size": 14835
+    },
+    "verification/overview-results.json": {
+      "sha256": "0ea9cc7c2aa248d6d8900c9fa3f28fe2393f8757089c362363b31c85a7f88e74",
+      "size": 2284
+    },
+    "verification/photo-equipment-results.json": {
+      "sha256": "d205371814ba1556c6b84fe2d35d2896cfdcdbeca60ff1ca4e8b4c1d9e7f9588",
+      "size": 14121
+    },
+    "verification/quiet-info-results.json": {
+      "sha256": "f5e60234dcc48d750932949841f161dad739a121122aec28b5af39d8f18955d5",
+      "size": 12462
+    },
+    "verification/readiness-checks.mjs": {
+      "sha256": "97abf7561368324c81df27345914d132c4bdd319ab583f3a444e7cc3b7c18db9",
+      "size": 10555
+    },
+    "verification/readiness-results.json": {
+      "sha256": "d6e78b5fe3087eef9bc8af2d2ed99ffe7a70ff95f06bd9e3f57da9acd58df312",
+      "size": 1625
+    },
+    "verification/research-equipment-results.json": {
+      "sha256": "53525b212a0573168416795c6302406914238178f9b41aae548fa40cf2410368",
+      "size": 12462
+    },
+    "verification/rov-anatomy-checks.mjs": {
+      "sha256": "2a81edfb0d6032bf2c52cbf26be73807ee204d506d2b4a47c886dd8f77052f91",
+      "size": 9999
+    },
+    "verification/rov-anatomy-results.json": {
+      "sha256": "8e6fe77ab003a9d45b9e91e621be484f0e891a2d558568cd20161ff2c3f302d7",
+      "size": 1105
+    },
+    "verification/rov-framing-checks.mjs": {
+      "sha256": "988746b1e8caeab39a95814380bbebeec2dc144f84b4fdc0a7b44a7fcf3c2b61",
+      "size": 4188
+    },
+    "verification/rov-framing-results.json": {
+      "sha256": "69901e2f4ee678e4ad26adce6767223584217622a48b045539c45fef81072fa7",
+      "size": 1842
+    },
+    "verification/rov-pilot/README.md": {
+      "sha256": "1952f8ae2ee91234dde5ac9a8907bb382690a42d74d7ae5ad5693d9c5ca8c515",
+      "size": 830
+    },
+    "verification/rov-pilot/accessory-check.mjs": {
+      "sha256": "1f12d90ec493c12ffe682eabf438a1c66cebf99c09f23464f32b06b52084719c",
+      "size": 6119
+    },
+    "verification/rov-pilot/arming-check.mjs": {
+      "sha256": "cbdea14e58d0fb9f570ff04827935af87e2a1e8421e44fec93dd833d1d537dd8",
+      "size": 6146
+    },
+    "verification/rov-pilot/camera-check.mjs": {
+      "sha256": "5c41521de92d1186f77c4c0a88e293bd41e5fc77c482eb9846a40370b75140c7",
+      "size": 3260
+    },
+    "verification/rov-pilot/check.mjs": {
+      "sha256": "ecc1e97998519faa06e46bdad45aeef8e1f2608ec563f067694611d0671f683b",
+      "size": 1140
+    },
+    "verification/rov-pilot/free-camera-check.mjs": {
+      "sha256": "d6c8917ac713a668ebb184521b95814e2023de920fa69838acf3181aa223fc65",
+      "size": 3901
+    },
+    "verification/rov-pilot/hold-command-check.mjs": {
+      "sha256": "5d7c26c9aedf78211492803a0a9ea7aa2379b0df50542a84dc94c5a3dd0b36a4",
+      "size": 2183
+    },
+    "verification/rov-pilot/rc3-check.mjs": {
+      "sha256": "6c7b279f0b3e4caf535c3f82d27c8a1085f89b40415d2a385f2b0b829c577f16",
+      "size": 3003
+    },
+    "verification/rov-pilot/water-control-check.mjs": {
+      "sha256": "aeb49b0b3503b78012b7f66912663acb73fcbab9cb4a67207890276166d59eb1",
+      "size": 2366
+    },
+    "verification/rov-pilot/wave-check.mjs": {
+      "sha256": "8172b1d34c4a9d9cf33fc1890ae973912a473275ebf709eb57fa9aacaae4d367",
+      "size": 4504
+    },
+    "verification/sensing-visuals-checks.mjs": {
+      "sha256": "1996054605fb48d0b446b7a700591e7b2f1dfe0021dcd311c4795931db5f8ecf",
+      "size": 5076
+    },
+    "verification/sensor-rack-checks.mjs": {
+      "sha256": "49c89effdcb1749e23700e79851aa19896fdb6d2a4324568276d37916c8c66a7",
+      "size": 9763
+    },
+    "verification/sensor-rack-results.json": {
+      "sha256": "108927bfd5f8f4f2f2477b1f03c40374e3f8d7219a12d278a30fa91f22f40b29",
+      "size": 4491
+    },
+    "verification/spectrum-checks.mjs": {
+      "sha256": "6f58dd17d81162e7fbaf11b2bdf345d8d62fb2413575e7d727180ecd1c81c877",
+      "size": 2406
+    },
+    "verification/video-checks.mjs": {
+      "sha256": "c3bfa17fed702efefff13e161186e493f0dc9de3bf1cde6efc1d60c159566809",
+      "size": 7881
+    },
+    "verification/video-results.json": {
+      "sha256": "fd49a0936fba47c8f5b65c5b3252e2fe66bcf8187bee297c3400dd36b6a1e9aa",
+      "size": 1474
+    }
+  },
+  "archive_sha256": "193da235abbc94c487d6666ee4858ff48f12e7baf6d2dc3f445468e9098ec54f",
+  "parts": [
+    {
+      "name": "studio-source.tar.gz.part-000",
+      "size": 4194304,
+      "sha256": "bbd08c12aed2f79158a86874ba90ae58e3935ebc90f6616115eabf3f0b7a55d2"
+    },
+    {
+      "name": "studio-source.tar.gz.part-001",
+      "size": 4194304,
+      "sha256": "fdd696df12809d98e3e3518c8f702c934749e02f0d1e1350d190960aa8b35858"
+    },
+    {
+      "name": "studio-source.tar.gz.part-002",
+      "size": 4194304,
+      "sha256": "431eab882896d0677c5b20c5484e8508ed478b93b56a6c1689dd77ac70014757"
+    },
+    {
+      "name": "studio-source.tar.gz.part-003",
+      "size": 4194304,
+      "sha256": "e7890f066f0ece2252f30a344689c87170d1623ecb37da789666e6e1f70c8a54"
+    },
+    {
+      "name": "studio-source.tar.gz.part-004",
+      "size": 4194304,
+      "sha256": "e9ddea5e8f995d018e7d3d1845806538c5e5f142e7894d103b7b88dcfee5766b"
+    },
+    {
+      "name": "studio-source.tar.gz.part-005",
+      "size": 4194304,
+      "sha256": "64ef16ed619aedec859fa070e587ac7431e4080d34916e3012bd09b7db640d41"
+    },
+    {
+      "name": "studio-source.tar.gz.part-006",
+      "size": 4194304,
+      "sha256": "51c722993f547978debc2115c1f1da81fcf27aafe5313737f8dc6dfdff7c613c"
+    },
+    {
+      "name": "studio-source.tar.gz.part-007",
+      "size": 4194304,
+      "sha256": "12d543ac1ac4d31aae51dc6bc29114ed58164f8d2ecc4bd2f59bccc2b993fb36"
+    },
+    {
+      "name": "studio-source.tar.gz.part-008",
+      "size": 4194304,
+      "sha256": "aba850e263fca2257cfbd929426cfcf8037ad388acf64da27af14fc4da7db05f"
+    },
+    {
+      "name": "studio-source.tar.gz.part-009",
+      "size": 4194304,
+      "sha256": "bfa745f2b045cd3d3789ec3b9446d67545291e8d89032c406e03653e1a4ce2e1"
+    },
+    {
+      "name": "studio-source.tar.gz.part-010",
+      "size": 4194304,
+      "sha256": "f1bf35a513c7e714118ad6b77469fb718d904ce1c69685ed9b70e8360c899114"
+    },
+    {
+      "name": "studio-source.tar.gz.part-011",
+      "size": 3685972,
+      "sha256": "8917020438bef570860add23f7cf9f5a2f22717bed151cdc95f9c5759ccfbbf3"
+    }
+  ]
+}
